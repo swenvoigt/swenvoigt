@@ -14,7 +14,7 @@ baseurl:            ''
 paginate:			5
 excerpt_separator:	<!--more-->
 encoding:			utf-8
-banner-image:        /assets/img/neuseeland-banner.jpg
+banner-image:        /assets/img/mountain-cover.jpg
 
 
 # About/contact
