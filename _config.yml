@@ -9,8 +9,8 @@ markdown:    		kramdown
 title:				Swen Voigt
 #tagline:			'A Jekyll theme'
 description:		'' # hier steht der Text für die Sidebar... Brauche ich nicht. Sihe sidebar.html
-url:                'http://localhost:4000/'
-# baseurl:            ''
+url:                'http://swenvoigt.github.io/swenvoigt/'
+baseurl:            ''
 paginate:			5
 excerpt_separator:	<!--more-->
 encoding:			utf-8
