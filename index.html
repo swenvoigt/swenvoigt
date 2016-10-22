@@ -8,7 +8,7 @@ title: Home
       <h1 class="post-title"><a href="{{ site.url }}/{{ site.baseurl }}/{{ post.url }}">
         {{ post.title }}
       </a></h1>
-    <span class="post-date">{% icon fa-calendar %}&nbsp;
+    <span class="post-date"><i class='fa fa-calendar'></i>&nbsp;
     {% assign m = post.date | date: "%-m" %}
 				{{ post.date | date: "%-d. " }}
 				{% case m %}
@@ -28,7 +28,7 @@ title: Home
 				{{ post.date | date: "%Y" }}
 	</span>
     <span class="post-excerpt">{{ post.excerpt }}</span>
-    <a class="post-weiterlesen" href="{{ site.url }}/{{ site.baseurl }}/{{ post.url }}">Weiterlesen&nbsp;{% icon fa-angle-double-right %}</a>
+    <a class="post-weiterlesen" href="{{ site.url }}/{{ site.baseurl }}/{{ post.url }}">Weiterlesen&nbsp;<i class='fa fa-angle-double-right'></i></a>
   {% endfor %}
 </div>
 
