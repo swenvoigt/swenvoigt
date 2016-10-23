@@ -16,7 +16,7 @@ titel: Archiv
           <ul>
               {% for post in site.posts %}
               <div class="category-list">
-		<a href="{{ site.baseurl }}/{{ post.url }}" class="category-list-title">{{ post.title }}</a>
+		<a href="{{ site.url }}/{{ post.url }}" class="category-list-title">{{ post.title }}</a>
 		&nbsp;
 		<span class="category-list-date">({{ post.date | date: "%-d. %b %Y" }})</span>
    	</div>

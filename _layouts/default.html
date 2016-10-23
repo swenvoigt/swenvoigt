@@ -11,15 +11,15 @@
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
-	<header class="masthead" style="background-image: url( '{{ site.baseurl }}/assets/img/mountain-cover.jpg' )">
+	<header class="masthead" style="background-image: url( '{{ site.url }}/assets/img/mountain-cover.jpg' )">
    		<h1 class="masthead-title">
-			<a href="{{ site.baseurl }}/" title="Home"><span style="letter-spacing: -0.07em">S</span>wen <span style="letter-spacing: -0.18em">V</span>oigt</a>
+			<a href="{{ site.url }}/" title="Home"><span style="letter-spacing: -0.07em">S</span>wen <span style="letter-spacing: -0.18em">V</span>oigt</a>
 		</h1>
 		
 		<nav class="masthead-topics">
 			<ul>
 			{% for page in site.pages_list %}
-				<li><a href="{{ site.baseurl }}/{{ page[1]  }}">{{ page[0] }}</a>&nbsp;&nbsp;&nbsp;</li>
+				<li><a href="{{ site.url }}/{{ page[1]  }}">{{ page[0] }}</a>&nbsp;&nbsp;&nbsp;</li>
 			{% endfor %}
 			</ul>
         </nav>
@@ -39,6 +39,7 @@
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
     <script>
+    
     $('.back-to-top').css({"display": "none"});
 
       (function(document) {

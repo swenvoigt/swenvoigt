@@ -4,7 +4,7 @@ layout: page
 
 <aside>
    <figure class="figure-right" style="width: 40%">
-      <img src="{{ site.baseurl }}/assets/img/dasbinjaich.jpg" />
+      <img src="{{ site.url }}/assets/img/dasbinjaich.jpg" />
    </figure>  
 </aside> 
 

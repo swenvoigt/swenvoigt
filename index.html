@@ -5,7 +5,7 @@ title: Home
 
 <div class="posts">
   {% for post in paginator.posts %}
-      <h1 class="post-title"><a href="{{ site.baseurl }}/{{ post.url }}">
+      <h1 class="post-title"><a href="{{ site.url }}/{{ post.url }}">
         {{ post.title }}
       </a></h1>
     <span class="post-date"><i class='fa fa-calendar'></i>&nbsp;
@@ -28,21 +28,21 @@ title: Home
 				{{ post.date | date: "%Y" }}
 	</span>
     <span class="post-excerpt">{{ post.excerpt }}</span>
-    <a class="post-weiterlesen" href="{{ site.baseurl }}/{{ post.url }}">Weiterlesen&nbsp;<i class='fa fa-angle-double-right'></i></a>
+    <a class="post-weiterlesen" href="{{ site.url }}/{{ post.url }}">Weiterlesen&nbsp;<i class='fa fa-angle-double-right'></i></a>
   {% endfor %}
 </div>
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
+    <a class="pagination-item older" href="{{ site.url }}/page{{paginator.next_page}}">Older</a>
   {% else %}
     <span class="pagination-item older">Older</span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
+      <a class="pagination-item newer" href="{{ site.url }}/">Newer</a>
     {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
+      <a class="pagination-item newer" href="{{ site.url }}/page{{paginator.previous_page}}">Newer</a>
     {% endif %}
   {% else %}
     <span class="pagination-item newer">Newer</span>
