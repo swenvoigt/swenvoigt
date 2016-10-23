@@ -19,7 +19,7 @@
 		<nav class="masthead-topics">
 			<ul>
 			{% for page in site.pages_list %}
-				<li><a href="{{ page[1]  }}">{{ page[0] }}</a>&nbsp;&nbsp;&nbsp;</li>
+				<li><a href="{{ site.baseurl }}/{{ page[1]  }}">{{ page[0] }}</a>&nbsp;&nbsp;&nbsp;</li>
 			{% endfor %}
 			</ul>
         </nav>
