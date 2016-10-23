@@ -21,7 +21,7 @@
 
 	{% for category in site.categories %}
     	<a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" 
-	    	href="/{{ site.category_dir }}/{{ category[0] }}/" style="text-decoration: none;"><i class='fa fa-tag'></i> {{ category[0] }}</a>
+	    	href="{{ site.baseurl }}/{{ site.category_dir }}/{{ category[0] }}/" style="text-decoration: none;"><i class='fa fa-tag'></i> {{ category[0] }}</a>
 	{% endfor %}
 
 <!--
