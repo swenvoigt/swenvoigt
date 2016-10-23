@@ -9,7 +9,7 @@ markdown:    		kramdown
 title:				Swen Voigt
 #tagline:			'A Jekyll theme'
 description:		'' # hier steht der Text für die Sidebar... Brauche ich nicht. Sihe sidebar.html
-url:                'http://swenvoigt.github.io/swenvoigt/'
+url:                'https://swenvoigt.github.io/swenvoigt/'
 baseurl:            ''
 paginate:			5
 excerpt_separator:	<!--more-->
