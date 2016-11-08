@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="de">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Lightroom für Ungeduldige &middot; Swen Voigt
+    
+  </title>
+
+  <!-- JS -->
+  <script src="http://localhost:4000/js/jquery-3.1.0.min.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="http://localhost:4000/public/css/poole.css">
+  <link rel="stylesheet" href="http://localhost:4000/public/css/syntax.css">
+  <link rel="stylesheet" href="http://localhost:4000/public/css/own.css">
+
+  <link rel="stylesheet" href="http://localhost:4000/public/fonts/font-awesome-4.6.3/css/font-awesome.min.css"> 
+  <link rel="stylesheet" href="http://localhost:4000/public/fonts/font-concourse/stylesheet.css">
+  <link rel="stylesheet" href="http://localhost:4000/public/fonts/font-concourse-tab/stylesheet.css">
+  <link rel="stylesheet" href="http://localhost:4000/public/fonts/font-equity/stylesheet.css">
+  <!--link rel="stylesheet" href="http://localhost:4000/public/fonts/font-equity-tab/stylesheet.css"-->
+  <link rel="stylesheet" href="http://localhost:4000/public/fonts/font-advocate-tab/stylesheet.css">
+  <link rel="stylesheet" href="http://localhost:4000/public/fonts/font-advocate-mid/stylesheet.css">
+  <link rel="stylesheet" href="http://localhost:4000/public/fonts/font-triplicate-code/stylesheet.css">
+  <link rel="stylesheet" href="http://localhost:4000/public/fonts/font-scriptina/stylesheet.css">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="http://localhost:4000/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+<!-- add class sidebar-overlay optionally, then sidebar will not shift the full content to to the right -->
+<body class="theme-base-own"> 
+	
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" unchecked>
+
+<!-- Toggleable sidebar -->
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-titel">
+    <p><span style="letter-spacing: -0.07em">S</span>wen <span style="letter-spacing: -0.12em">V</span>oigt</p>
+  </div>
+  <div class="sidebar-description">
+    <p>Tutorials, Tipps & Tricks</p>
+  </div>
+  
+  <nav>
+    <a class="sidebar-nav-item" href="http://localhost:4000/"><i class='fa fa-home'></i> Home</a>
+
+    <a class="sidebar-nav-item" href="http://localhost:4000/about"><i class='fa fa-book'></i> About</a>
+
+    <a class="sidebar-nav-item" href="http://localhost:4000/archive"><i class='fa fa-archive'></i> Archive</a>
+
+
+	
+    	<a class="sidebar-nav-item" 
+	    	href="http://localhost:4000/categories/Reisen/" style="text-decoration: none;"><i class='fa fa-tag'></i> Reisen</a>
+	
+    	<a class="sidebar-nav-item" 
+	    	href="http://localhost:4000/categories/Fotobearbeitung/" style="text-decoration: none;"><i class='fa fa-tag'></i> Fotobearbeitung</a>
+	
+
+<!--
+    
+
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/categories/Fotobearbeitung/"><i class='fa fa-tag'></i> </a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/categories/Reisen/"><i class='fa fa-tag'></i> </a>
+        
+      
+    
+      
+    
+      
+    
+-->
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      <i class='fa fa-copyrigth'></i> 2014-2016 Swen Voigt<br> <a href="http://localhost:4000/impressum">Impressum</a> | <a href="http://localhost:4000/datenschutz">Datenschutzerklärung</a>
+    </p>
+  </div>
+</aside>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+	<header class="masthead" style="background-image: url( 'http://localhost:4000/assets/img/mountain-cover.jpg' )">
+   		<h1 class="masthead-title">
+			<a href="http://localhost:4000/" title="Home"><span style="letter-spacing: -0.07em">S</span>wen <span style="letter-spacing: -0.18em">V</span>oigt</a>
+		</h1>
+		
+		<nav class="masthead-topics">
+			<ul>
+			
+				<li><a href="http://localhost:4000//about">Über mich</a>&nbsp;&nbsp;&nbsp;</li>
+			
+				<li><a href="http://localhost:4000//archive">Archiv</a>&nbsp;&nbsp;&nbsp;</li>
+			
+			</ul>
+        </nav>
+	</header>
+    
+	  
+      <div class="container">
+        <div class="post">
+  <h1 class="post-title">Lightroom für Ungeduldige</h1>
+  <span class="post-date"><i class='fa fa-calendar'></i>&nbsp;
+              
+				6. 
+				Juni
+				  
+				2016   
+				</span>
+  <p>Als ich vor einigen Jahren RAW-Unterstützung benötigte, viel meine Wahl auf Aperture 3 von Apple. Vor allem wegen der tollen Diashows. Also migrierte ich alle Fotos von iPhoto nach Aperture 3. Ein Jahr später kündigte Apple an, das Produkt einzustampfen. Danke, Apfel-Firma! Alle neuen Fotos bearbeite ich inzwischen in Lightroom 6. Da ich anfangs aufgrund der unglaublich vielen Setup-Möglichkeiten etwas verloren war, beschreibe ich in diesem Post in möglichst kurzer Form mein Setup und den Workflow.</p>
+
+<!--more-->
+
+<hr />
+
+<h1 id="inhalt">Inhalt</h1>
+<div class="TOC-nobullets">
+  <ol>
+    <li><a href="#a1">Die Kamera und das RAW-Format</a></li>
+    <li><a href="#a2">Speicherorte und Überschlagsrechnung</a></li>
+    <li><a href="#a3">Verzeichnisstruktur und Namenskonventionen</a></li>
+    <li><a href="#a4">Lightroom-Einstellungen</a></li>
+    <li><a href="#a5">Importieren von Fotos</a></li>
+    <li><a href="#a6">Aussortieren - Bibliotheks-Modul</a></li>
+    <li><a href="#a7">Verbessern - Entwickeln-Modul</a></li>
+    <li><a href="#a8">Diashows</a></li>
+  </ol>
+</div>
+
+<h2 id="a-namea1a-die-kamera-und-das-raw-format"><a name="a1"></a> Die Kamera und das RAW-Format</h2>
+<p>Es war ein Kompromisskauf als ich mich für eine nicht besonders tolle <a href="https://www.amazon.de/Canon-kompakte-Systemkamera-Megapixel-Touch-Display/dp/B00LUQ6188/ref=sr_1_10?ie=UTF8&amp;qid=1469724216&amp;sr=8-10&amp;keywords=canon+eos+m">Canon EOS M</a> entschied. Aber wichtig: sie kann das RAW-Format speichern. Da viele Freunde damit nichts anfangen können, speichere ich sowohl im JPG- als auch RAW-Format auf der Speicherkarte. So kann ich bereits im Urlaub die JPG-Dateien verteilen und stehe nicht unter Zeitdruck, sie erst mit Lightroom erstellen und exportieren zu müssen. Bei 18 Megapixel des APS-C-Sensors ist eine RAW-Datei zwischen 20 und 30 MB und eine JPG-Datei zwischen 5 und 10 MP gross. Da SD-Speicherkarten immer grösser und günstiger werden, erlaube ich mir diesen Luxus. Da SD-Karten auch einfach mal im Urlaub kaputt gehen können, sollte man ohnehin mindestens eine Backup-Karte oder -Festplatte dabei haben. Der Anschaffungspreis ist im Vergleich zu den Urlaubskosten inzwischen vernachlässigbar.</p>
+
+<p>Eine 64GB-Speicherkarte fasst somit zwischen 1300 und 2000 Fotos. Mir reichte das bei einem 4-wöchigen Neuseeland-Urlaub. Jemand, der mehr fotografiert und vielleicht weniger gelungene Fotos nicht sofort aussortiert, mag das anders sehen.</p>
+
+<p>Ein Freund fotografiert mit einer grossartigen DSLR, besitzt teure Objektive, verwendet Lightroom - aber speichert nur im JPG-Format. Aus meiner Sicht ist damit viel Potential verschenkt. Sowohl bei seiner Kamera-Ausrüstung als auch bei der Software.</p>
+
+<p>Vorteile von RAW:</p>
+
+<ul>
+  <li>Beim Fotografieren kann man sich auf Fokus, Blende, Belichtungszeit sowie Lichtempfindlichkeit konzentrieren. Alles weitere ist nachträglich korrigierbar.</li>
+  <li>Der Weissabgleich lässt sich nachträglich korrigieren. Man kann sich auf die Kamera verlassen , muss aber nicht.</li>
+  <li>RAW besitzt eine grössere Farbtiefe pro Kanal und bietet damit bessere Unter- / Überbelichtungskorrekturen.</li>
+  <li>Da die RAW-Datei weitgehend dem Rohdaten-Foto des Sensors entspricht, profitiert man über die Jahre von Verbesserungen am RAW-Konverter (In Lightroom enthalten). So kann es sich lohnen, alte RAW-Fotos mit einem neuen Konverter noch besser bearbeitet zu bekommen.</li>
+  <li>Der RAW-Konverter des Rechners kann auch das Rauschen bei hohen ISOs besser unterdrücken als der in der Kamera bei der JPG-Generierung.</li>
+  <li>Speichert man ausschliesslich in RAW, so kann man den Kamera-Prozessor entlasten, da er nichts konvertieren muss. Vielleicht schont das den Akku und lässt die Kamera nicht so heiss werden.</li>
+</ul>
+
+<p>Nachteile von RAW:</p>
+
+<ul>
+  <li>RAW-Dateien können riesig werden. Sie sind ca. 3 bis 5 mal so gross wir die JPG-Pendants. Obwohl dieser Punkt durch niedrige Preise der Speicherkarten keine Rolle spielen dürfte, wirkt es sich auf einen zweiten Punkt aus:</li>
+  <li>Grössere Dateien benötigen mehr Zeit beim Schreiben auf die Speicherkarte. Oder aber eine grössere Speichergeschwindigkeit. Möglicherweise kann also die Kamera bei einer Reihenaufnahme nicht die spezifizierte Serienbildgeschwindigkeit erreichen.</li>
+</ul>
+
+<h2 id="a-namea2a-speicherorte-und-uumlberschlagsrechnung"><a name="a2"></a> Speicherorte und Überschlagsrechnung</h2>
+<p>Lightroom 6 läuft auf einem älteren 13” MacBook Pro Retina. Er hat zwar eine schnelle interne SSD. Deren Platz würde aber nie für meine Fotosammlung ausreichen. Eine Beispielrechnung:<br />
+Für einen Neuseeland-Urlaub habe ich ca. 1000 Fotos im RAW-Format mit einer Gesamtgrösse von etwas 20GB gespeichert. Hier sind aber bereits die nicht gelungen Fotos aussortiert. Insgesamt benötige ich pro Jahr zwischen 40 und 100GByte Plattenplatz für Fotos. Meine älteren Fotos brauchen natürlich wesentlich weniger Speicherplatz. Zum einen, weil ich damals kein RAW-Format nutzen konnte, zum anderen, weil die früheren Digitalkameras eine geringere Bildauflösung hatten. So ist aktuell meine Fotosammlung ca. 400GByte gross. Lightroom profitiert selbstverständlich von einem schnellen Zugriff auf die Foto-Dateien. Da es sie nicht verändert, zählen ausschliesslich die Lesegeschwindigkeit und die Latenzzeit beim Zugriff.</p>
+
+<p>Die Dauertransferrate einer 3,5”-Festplatte liegt für Leseoperation zwischen 70 und 156MByte/s (WD20EFRX Red, 5400min<small><sup>-1</sup></small>, c’t 14 2013, Seite 143). Bei einer 2,5”-Festplatte mit 7200min<small><sup>-1</sup></small> ist sie geringfügig niedriger zwischen 63 und 130MByte/s (HTS1010 Travelstar, gleicher c’t-Artikel). Bei einer externen USB-3.0-Festplatte ist also die eingebaute Festplatte das langsamste Glied in der Kette. So muss es auch sein. Immerhin ist USB 3.0 für eine Brutto-Datenrate von 500MByte/s spezifiziert (SuperSpeed-Modus). In der Realität schaffen die Host-Adapter immerhin noch ca. 300 MByte/s.
+Bei einem NAS, auf das via Gigabit-Ethernet zugegriffen wird, schaut es etwas ungünstiger aus. In der Praxis erreicht man eine Dauerlesegeschwindigkeit zwischen 40 und 85MByte/s (c’t 22/2012, Seite 109). Unterstützt das NAS eine <a href="https://www.synology.com/de-de/knowledgebase/DSM/help/DSM/AdminCenter/connection_network_linkaggr">Link Aggregation</a> so kann man die Datenrate von Gigabit-Ethernet immerhin verdoppeln.</p>
+
+<p>Lightroom speichert alle Referenzen zu den Original-Fotos in einem Katalog und verwaltet einen grossen Cache. Sowohl Katalog als auch Cache liegen selbstverständlich auf dem schnellsten zur Verfügung stehenden Speichermedium. Und das ist die interne SSD beim Macbook. Ohnehin erlaubt es Adobe nicht, den Katalog auf einem Netzwerkspeicher zu speichern.<br />
+Anfangs hatte ich die Befürchtung, dass der Lightroom-Katalog zu gross werden könnte. Er enthält aber nur die Referenzen auf die Dateien in der Foto-Bibliothek, die angewendeten Bearbeitungsschritte und die generierten Vorschaubilder. Letztere lassen natürlich die Grösse des Katalogs schnell in den zweistelligen GByte-Bereich anwachsen. Daher lasse ich sie nach 30 Tagen automatisch verwerfen. Ich komme später noch einmal darauf zurück.</p>
+
+<p>Letztendlich wollte ich es genau wissen und maß die Dauer eines Fotoimports mit anschliessender Generierung von Standard-Vorschaubildern in den verschiedenen Varianten. Das zu importierende Verzeichnis enthielt 1240 *.CR2-RAW-Dateien mit einer Gesamtgrösse von 30 GByte sowie den zugehörigen JPG-Dateien mit zusätzlichen 10 GByte, die jedoch nicht von Lightroom zu lesen sind.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Speicherort Foto-Bibliothek</th>
+      <th>Speicherort Katalog</th>
+      <th>Dauer des Imports</th>
+      <th>Generierung Vorschaubilder</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>externe Festplatte<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></td>
+      <td>externe Festplatte</td>
+      <td>0:58 Min.</td>
+      <td>21:29 Min.</td>
+    </tr>
+    <tr>
+      <td>externe Festplatte</td>
+      <td>interne SSD<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup></td>
+      <td>0:44 Min.</td>
+      <td>20:56 Min.</td>
+    </tr>
+    <tr>
+      <td>interne SSD</td>
+      <td>interne SSD</td>
+      <td>0:44 Min.</td>
+      <td>20:34 Min.</td>
+    </tr>
+    <tr>
+      <td>Netzwerkspeicher<sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup><sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup></td>
+      <td>interne SSD</td>
+      <td>2:29 Min.</td>
+      <td>57:09 Min.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Überraschenderweise sind alle Varianten ohne Netzwerkspeicher ähnlich schnell. Falls sich doch jemand für die NAS-Variante entscheidet, sollte bedacht werden, dass parallele Zugriffe zum Konflikt führen. Sind also BluRay-Filme auf dem NAS abgelegt, so können sie sehr wahrscheinlich nicht ohne Ruckler abgespielt werden, wenn parallel dazu Vorschaubilder generiert werden oder andere längere Lightroom-Aktionen stattfinden.</p>
+
+<p>Sinnvollerweise wird also die Foto-Bibliothek auf einer externen Festplatte abgelegt. Da sie im Laufe der Jahre immer wieder durch eine grössere ausgetauscht werden wird, kann man sich vorbereiten und dem Volume einen Namen geben, der sich nicht ändern muss. So bekommt man keine Probleme bei Aliasen oder Pfad-Angaben in Katalogen. Dummerweise heisst meine externe Festplatte “Extern WD10”, obwohl sie inzwischen “Extern WD30” heissen müsste. Besser wäre ein Name wie “Extern HD” oder “Extern Alles” gewesen.</p>
+
+<h2 id="a-namea3a-verzeichnisstruktur-und-namenskonventionen"><a name="a3"></a> Verzeichnisstruktur und Namenskonventionen</h2>
+<p>Alle Fotos speichere ich in einer Verzeichnisstruktur ab, in der ich mich auch ohne Lightroom zurechtfinden kann. Alle Fotos werden nach Events sortiert – das können Urlaube, Wochenende-Trips, Museumsbesuche, Parties sein. Der Verzeichnisname beginnt mit dem ersten Tag des Events (“20160316” für 16. März 2016) gefolgt von einer kurzen Beschreibung. Als ich begann, mich mit Lightroom zu beschäftigen, stiess ich tatsächlich auf Tutorials, die von der <a href="http://layersmagazine.com/7-steps-to-getting-organized-in-lightroom.html">Verwendung eines Datums abraten</a>. Aber wie soll das funktionieren? Geburtstage finden nunmal jährlich statt und auch an einigen Orten fotografiert man nicht nur einmal. Durch das Datum finde ich schnell einen eindeutigen Namen für das Event. Als Hobbyfotograf reicht mir eine solche tagesgenaue Einteilung aus. Alle Events eines Jahres landen in einem eigenen Jahres-Ordner. 
+In Urlauben hatte ich häufig ein Problem mit Fotos aus unterschiedlichen Quellen: Von Mitreisenden geschossene Fotos, mit dem Smartphone gemachte oder die einer Kamera-Drohne. Diese Fotos erhielt ich teilweise erst Monate später. Also legte ich zusätzliche Unterverzeichnisse innerhalb eines Events an. So kann ich sie nachträglich in Lightroom importieren, ohne befürchten zu müssen, dass verschiedene Fotos gleiche Dateinamen haben könnten. Sollten nach der Lightroom-Bearbeitung einmal bearbeitete Fotos exportiert werden, so lasse ich sie durch Lightroom in einen weiteren Ordner “Exported” schreiben.
+Letztendlich ergibt sich eine solche beispielhafte Verzeichnisstruktur:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>/Volumes/
+|–––|Extern HD/
+|   |–––|Fotos/
+|   |   |–––|2015/
+|   |   |   |–––|20150222 Sölden/
+|   |   |   |       |–––|Swen/
+|   |   |   |           |–––IMG_7778.CR2
+|   |   |   |           |–––IMG_7778.JPG
+|   |   |   |
+|   |   |–––|2016/
+|   |   |   |–––|20160316 Sölden/
+|   |   |   |   |–––DJI Phantom/
+|   |   |   |   |–––Swen/
+|   |   |   |   |–––Toni/
+|   |   |   |   |–––Exported/
+|   |   |   |
+|   |   |   |–––|20160325 London/
+|   |   |   |–––|20160410 Flugwerft Oberschleissheim/
+</code></pre>
+</div>
+
+<p>Übrigens: Mangels Alternative in Lightroom markiere ich im Mac-Finder die Verzeichnisse der Events mit Tags. Ein grünes Tag bedeutet, dass die weniger gelungen Fotos bereits aussortiert und gelöscht sind. Ein blaues Tag verrät, ob die Fotonachbearbeitung abgeschlossen ist und ein lila Tag, ob eine Diashow erstellt wurde. Leider bietet Lightroom keine Funktion, den Bearbeitungsstand zu dokumentieren.</p>
+
+<p>Der eigentliche Lightroom-Katalog liegt unter /Users/&lt;username&gt;/Pictures/Lightroom/Lightroom Standard auf der internen SSD, so wie es auch vorgeschlagen wird. Das ist das Medium mit der höchsten Datentransferrate.</p>
+
+<h2 id="a-namea4a-lightroom-einstellungen"><a name="a4"></a> Lightroom-Einstellungen</h2>
+<p>Falls noch nicht geschehen, erstellt jetzt einen neuen Lightroom-Katalog unter /Users/&lt;username&gt;/Pictures/Lightroom/Lightroom Standard.
+Im Menu Voreinstellung (⌘<b>U</b>)</p>
+<aside>
+   <figure class="figure-right" style="width: 50%">
+      <img src="http://localhost:4000/assets/lightroom-fuer-ungeduldige/Lightroom - Voreinstellung 1.png" />
+      <img src="http://localhost:4000/assets/lightroom-fuer-ungeduldige/Lightroom - Katalogeinstellungen.png" />
+   </figure>  
+</aside>
+<p>Stellt dort sicher, dass JPEG-Dateien mit gleichem Dateinamen nicht als separate Fotos importiert werden. Sind im zu importierenden Verzeichnis Fotos in zwei Formaten - eben JPEG und RAW -, dann wird das RAW ausschliesslich importiert. Lightroom wird sich auch merken, dass es noch eine JEPG-Datei gibt. Solltet ihr später das Fotos via Lightroom löschen (“vom Datenträger löschen”), so werden beide Formate entfernt.
+Wichtig sind noch die Katalogeinstellungen (⌥⌘<b>,</b>) für die 1:1-Vorschauen. Diese Vorschaubilder werden von Lightroom aus den importierten Fotos beim Betrachten generiert. Lasst ihr Lightroom beim Import bereits diese Vorschaubilder generieren, spart ihr euch später viel Zeit beim Aussortieren und der weiteren Bearbeitung. Falls ihr gerade aus dem Urlaub mit einer grossen Menge an Fotos kommt, dann setzt diesen Wert ausreichend hoch. Bedenkt auch, dass Lightroom die Vorschaubilder erst dann automatisch verwerfen kann, wenn Lightroom geöffnet ist.</p>
+
+<h2 id="a-namea5a-importieren-von-fotos"><a name="a5"></a> Importieren von Fotos</h2>
+<p>Nachdem alle Fotoaufnahmen in das entsprechende Zielverzeichnis kopiert wurden, kann das Importieren beginnen. Den Import der Bilder von der via USB angeschlossenen Kamera nutze ich nicht, da ich mit der Kamera angefertigte Filmaufnahmen zur Bearbeitung mit Final Cut Pro woanders ablege. Ich hatte anfangs Probleme zu verstehen, dass man am besten tatsächlich alle Fotos - auch die vielen misslungenen - in Lightroom importiert. Sie werden im nächsten Schritt des Workflows entfernt.<br /></p>
+<aside>
+   <figure class="figure-right" style="width: 40%">
+      <img src="http://localhost:4000/assets/lightroom-fuer-ungeduldige/Lightroom - Import 1.png" />
+      <img src="http://localhost:4000/assets/lightroom-fuer-ungeduldige/Lightroom - Import 2.png" />
+   </figure>  
+</aside>
+<p>Über <i>Datei <i class="fa fa-angle-right"></i> Fotos und Videos importieren</i> (⇧⌘<b>I</b>) wählt ihr das zu importierende Verzeichnis aus - bestätigt aber noch nicht den Import. Stellt sicher das im oberen Bereich des Dialogs “Hinzufügen” ausgewählt ist (siehe Bildschirmfoto). So belässt Lightroom die Fotodateien alle am ursprünglichen Ort und fügt dem eigenen Katalog lediglich eine Referenz zum Foto hinzu.
+Im rechten Teil des Dialogs wählt ausserdem das Erstellen von 1:1-Vorschauen aus (anderes Bildschirmfoto). Ausserdem vergebt ihr Stichwörter (“Urlaub”, “Portrait”, “Party”). In den Metadaten finden sich üblicherweise Copyrightinformationen. Über das Feld Entwicklungseinstellungen könnt ihr eine Bearbeitungsvorlage auswählen, welche auf alle Fotos angewendet wird. Diese Entwicklungseinstellung lässt sich natürlich später wieder ändern. Sie enthalten bei mir Schärfekorrektur und Rauschreduzierung, Objektivkorrektur sowie eine allgemeine Tonwertanpassung.
+Nachdem ihr den Dialog bestätigt wird Lightroom eine Referenz der Fotos in den eigenen Katalog übernehmen. Die relativ kleine Katalog-Datei Lightroom “Standard.lrcat” wächst also leicht an Grösse. Je nach Anzahl der Fotos und je nach Leistungsfähigkeit eures Rechners dauert nun die Erstellung der 1:1-Vorschauen durchaus mehrere Stunden. Diese relativ lange Zeit spart ihr sogleich im nächsten Schritt des Workflows beim Sichten und Aussieben der Fotos.<br />
+Im linken Bedienfeld findet ihr eine Ordner-Struktur, in der euer importiertes Verzeichnis angezeigt wird. Bei der vorgeschlagenen Struktur heisst es vielleicht “DJI Phantom” oder “Swen”. Wir wollen aber den Namen des Events sehen. Klickt also bitte den Ordner im Bedienfeld an, klickt die rechte Maustaste und wählt “übergeordneten Ordner anzeigen” aus. So erhaltet ihr in Lightrooms Ordner-Bedienfeld die gleiche Struktur und zeitliche Reihenfolge wie auch auf der Festplatte.</p>
+
+<h2 id="a-namea6a-aussortieren---bibliotheks-modul"><a name="a6"></a> Aussortieren - Bibliotheks-Modul</h2>
+<aside>
+   <figure class="figure-right" style="width: 30%">
+      <img src="http://localhost:4000/assets/lightroom-fuer-ungeduldige/Lightroom - Modul.png" />
+   </figure>  
+</aside>
+<p>Wir befinden uns immer noch in Lightrooms Bibliotheks-Modul und wählen im Ordner-Bedienfeld das zuletzt importierte Event aus. Im untersten Teil des Arbeitsbereichs findet ihr alle importieren Fotos als kleine Filmstreifen. Der grosse mittlere Bildbearbeitungsbereich zeigt möglicherweise ebenfalls Filmstreifen an oder genau das aktuell ausgewählte Foto oder einen Ausschnitt daraus.<br />
+Selektiert nun mit der Maus das erste Foto in der unteren Filmstreifen-Ansicht und drückt gegebenenfalls die Enter-Taste, bis ihr euer Foto in der Grossansicht seht. Gefällt es euch nicht, dann drückt die Taste “x”. Das bedeutet “abgelehnt”. Überlegt ihr euch es anders, hilft die Taste “u” wie “Unmarkiert”.<b></b></p>
+<aside>
+   <figure class="figure-right" style="width: 30%">
+      <img src="http://localhost:4000/assets/lightroom-fuer-ungeduldige/Lightroom - Filter.png" />
+   </figure>  
+</aside>
+<p>Mit den Cursortasten navigiert ihr in den Fotos vor und zurück und lehnt alle ungeratenen Fotos ab. Ihr werdet feststellen, dass das sehr flink funktioniert. Das liegt an den bereits erstellten 1:1-Vorschaubildern. Ohne diese Vorgenerierung würde Lightroom erst jetzt bei jedem einzelnen Fotos eine kleine Bedenk-Sekunde einlegen.<br />
+Zuletzt wählt ihr im Filter - er befindet sich auf der rechten Seite direkt über der Filmstreifen-Ansicht - das Fähnchen mit einem X aus. Das bedeutet “nach Markierungsstatus (Nur abgelehnte Fotos) filtern”. Die Fotos in der Filmstreifen-Ansicht sind jetzt alle grau und haben ein kleines schwarzes Fähnchen in der linken oberen Ecke. Selektiert nun alle diese Fotos via <i>Bearbeiten <i class="fa fa-angle-right"></i> Alles auswählen</i> (⌘<b>A</b>) und drückt die Taste “Entfernen” bzw. via Rechtsklick-Menu auf dem Filmstreifen “Fotos entfernen”. Im Dialog wählt nun “Vom Datenträger löschen”. Damit werden die abgelehnten Fotos, sowohl die RAW- als auch die JPG-Dateien, dauerhaft aus dem Katalog und von der Festplatte entfernt.<br />
+Deselektiert im Filter das Fähnchen mit dem X und es erscheinen wieder alle “guten” Fotos in der Filmstreifen-Ansicht.</p>
+
+<p>Anfangs werdet ihr natürlich kaum die Vergleichsansicht nutzen. Habt ihr aber einmal viele ähnliche Fotos gemacht, probiert es einmal aus: Ihr schaut euch in der Lupenansicht (Taste E) euer Foto an. Drückt jetzt die Taste C (“Compare”) für die Vergleichsfunktion. Jetzt seht ihr links euer ausgewähltes Foto als Favoriten und das nächste Foto als Kandidaten. Klickt ein Mal mit der Maus auf die rechte Bildschirmhälfte, so dass das Kandidatenfenster ausgewählt ist. Mit den Cursortasten <i class="fa fa-arrow-right"></i> und <i class="fa fa-arrow-left"></i> schaltet ihr den Kandidaten weiter. Gefällt euch der Kandidat, dann drückt die Taste <i class="fa fa-arrow-up"></i>. Der Kandidat ist jetzt Favorit. Gefällt euch der Kandidat nicht, wählt in mit “x” einfach ab und geht mit <i class="fa fa-arrow-right"></i> zum nächsten Foto. Gefällt euch der Kandidat besser als der Favorit, dann tauscht sie mit <i class="fa fa-arrow-down"></i>.
+Ihr kommt also mit den Cursortasten und “x” recht schnell voran.</p>
+
+<h2 id="a-namea7a-verbessern---entwickeln-modul"><a name="a7"></a> Verbessern - Entwickeln-Modul</h2>
+<aside>
+   <figure class="figure-right" style="width: 30%">
+      <img src="http://localhost:4000/assets/lightroom-fuer-ungeduldige/Lightroom - Modul.png" />
+   </figure>  
+</aside>
+<p>Wir haben bisher alle Fotos importiert, für ein schnelles Arbeiten die 1:1-Vorschauen generieren lassen und nur die guten Fotos behalten. Eventuell habt ihr bereits beim Import eine generische Verbesserung über eine Bearbeitungsvorlage vorgenommen. Aber das wird nicht allen Ansprüchen genügen. Eine Beschreibung der Funktionen würde jedoch den Rahmen dieses Beitrags sprengen. Ein Video-Grundlagenkurs - z.B. einer von Video2Brain - hilft hier weiter. Wem das zu ausführlich ist, der mag bei <a href="https://www.youtube.com/watch?v=Jgg4Kxf1Czk">Youtube</a> fündig werden. Mir genügen die folgenden Arbeitsschritte im Modul:</p>
+
+<h3 id="objektivkorrekturen">Objektivkorrekturen:</h3>
+<p>Aktiviert im entsprechenden Panel auf der rechten Seite der Profilkorrekturen, setzt Einrichten auf <i>Auto</i> und wählt euer Objektiv aus. Lightroom merkt sich diese Einstellung und wird sie sofort bei anderen Fotos anwenden. Verwendet ihr mehrere Objektive, merkt sich Lightroom anhand der EXIF-Information, welches Profil zu welchem Objektiv gehört.</p>
+
+<h3 id="grundeinstellungen">Grundeinstellungen:</h3>
+<p>Nehmt hier einen nachträglichen Weissabgleich vor, ändert Belichtung, Tonwerte, Dynamik und Sättigung. Allein für dieses Panel solltet ihr euch einmal ein kurzes Tutorial bei Youtube gönnen.</p>
+
+<h3 id="schaumlrfen">Schärfen:</h3>
+<p>Setzt für den Anfang den Betrag auf 80, den Radius auf 0,8 oder 1,0. Details auf 80 und Maskieren auf 20. Schaut auch einmal bei Gesichtern an, was diese Einstellungen bewirken.</p>
+
+<h3 id="effekte">Effekte:</h3>
+<p>Mit Lightroom 6 ist die praktische Funktion “Dunst entfernen” hinzugekommen. Setzt den Wert einmal auf 40 und schaut, ob sich euer Foto damit verbessert.</p>
+
+<h3 id="freistellen-und-gerade-ausrichten">Freistellen und gerade ausrichten:</h3>
+<aside>
+   <figure class="figure-right" style="width: 30%">
+      <img src="http://localhost:4000/assets/lightroom-fuer-ungeduldige/Lightroom - Entwickeln 1.png" />
+   </figure>  
+</aside>
+<p>Wählt im Panel das Rechteck links aus (bzw. nehmt die Taste R). Dann beschneidet das Foto. Rückt gegebenenfalls den Horizont gerade: Das Winkelsymbol selektieren, dann im Foto eine Linie am Horizont ziehen. Lightroom berechnet dann den Winkel selbst.</p>
+
+<h3 id="bereichsreparatur">Bereichsreparatur:</h3>
+<aside>
+   <figure class="figure-right" style="width: 25%">
+      <img src="http://localhost:4000/assets/lightroom-fuer-ungeduldige/Lightroom - Sensorflecken.png" />
+   </figure>  
+</aside>
+<p>Verwendet die Bereichsreparatur, wenn sich der Staub auf dem Sensor bei blauem Himmel oder anderen grossen Flächen bemerkbar macht. Wählt den Kreis mit dem Pfeil aus (bzw. nehmt die Taste Q). Selektiert unter dem Foto das Kästchen “Bereiche anzeigen” und zieht den Regler auf 100%. Dadurch seht ihr Sensorflecken mit dem blossen Auge - das sind die 5 Kreise im Foto - und könnt sie einfach mit dem Stempel reparieren.</p>
+
+<h3 id="schneller-im-entwickelnmodul-arbeiten">Schneller im Entwickelnmodul arbeiten:</h3>
+<p>Benutzt eigene Vorlagen, um schneller zu arbeiten. Ist die manuelle Verbesserung eures Fotos gelungen, speichert es es als Vorlage ab. Wählt im linken Navigatorfenster das Symbol <b>+</b> des Vorgaben-Panels aus und speichert es als Benutzervorgabe z.B. als “Standard Landschaft”. Selektiert beim nächsten Landschaftsfoto einfach diese Vorgabe.<br />
+Kopiert alternativ mit der Tasten-Kombination ⇧⌘<b>C</b> die Entwicklungseinstellungen und übertragt sie mit ⇧⌘<b>V</b> auf ein weiteres.Verwendet die Funktion “Einstellungen synchronisieren”, um eure Verbesserungen auf alle selektierte Fotos anzuwenden. Die Tastenkombination hierfür ist ⇧⌘<b>S</b> bzw. ⌥⌘<b>S</b> (ohne Dialog) - oder verwendet das entsprechende Lightroom-Menü.<br />
+Überhaupt solltet ihr euch nach und nach einige der Tastaturbefehle merken. Mit „⌘+<b>&lt;</b>“ auf dem Mac und „<b>ctrl</b>+<b>&lt;</b>“ auf dem PC werden sie im jeweiligen Modul eingeblendet.</p>
+
+<h2 id="a-namea8a-diashows"><a name="a8"></a> Diashows</h2>
+<p>Nach einem Urlaub ist in meinen Augen die Fotobearbeitung erst abgeschlossen, wenn auch eine kleine Diashow dazu existiert. Mit Aperture 3 konnte man Diashows erstellen, die einen recht grossen Funktionsumfang boten: Ken-Burns-Effekt - manuell einstellbar -, Zoom- und Panning, mehrere Musikstücke - leider nur nacheinander, nicht überlagernd -, recht gute Einbindung von Videoschnipseln und einiges mehr. Selbst Lightroom in der Version 6 bietet nach wie vor kein brauchbares Diashow-Modul an. <br />
+Daher verwende ich <a href="https://www.boinx.com/fotomagico/buy/">FotoMagico 5 Pro</a> für den Mac zum Preis von 100 EUR. Die Diashows exportiere ich als 1080p-Video für den Projektor im Format 16:9 mit einer Bildwiederholrate von 60 Hz. So ruckelt beim Abspielen des Videos nichts, nicht auf dem Projektor und auch nicht auf Flachbildschirmen. Der Nachteil eines externen Diashow-Programms ist natürlich, dass die Fotos exportiert werden müssen. Da wir in Lightroom unsere Ordnerstruktur haben- siehe <a href="#a3">dieses Kapitel</a>, exportiert sie einfach in ein entsprechendes Unterverzeichnis “Diashow” des Events.</p>
+
+<h1 id="links">Links</h1>
+<ol>
+  <li><a href="https://www.video2brain.com/de/videotraining/lightroom-cc-lightroom-6-grundlagen">Hilfreicher Lightroom-6-Grundlagen-Kurs von Martin Dörsch</a></li>
+  <li><a href="https://helpx.adobe.com/de/lightroom/help/workspace-basics.html">Lightroom Workspace-Übersicht</a></li>
+  <li><a href="https://helpx.adobe.com/de/lightroom/kb/optimize-performance-lightroom.html">Adobe gibt auch Tipps zu Performanceverbesserungen</a></li>
+  <li><a href="https://www.dpunkt.de/leseproben/11910/6_Tastaturbefehlsreferenz_Mac.pdf">Lightroom 5 Tastaturbefehle / Mac</a></li>
+</ol>
+
+<hr />
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p><a href="https://www.amazon.de/gp/product/B017IGERDE/ref=oh_aui_search_detailpage?ie=UTF8&amp;psc=1">Western Digital Elements 3TB USB3.0</a> <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p><a href="https://support.apple.com/kb/SP691?viewlocale=de_DE&amp;locale=en_US">Interne 256-GB-SSD im Macbook Pro Retina 2013</a> <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p><a href="http://www.storagereview.com/synology_ds1512_nas_review">Synology NAS DS1512+</a> via Gigabit-Ethernet <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:4">
+      <p><a href="https://www.amazon.de/interne-Festplatte-Zoll-Cache-WD60EFRX/dp/B00LO3KR96">Western Digital 6TB Red</a> <a href="#fnref:4" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+</div>
+
+
+      </div>
+    </div>
+
+	<a href="#" class="back-to-top less-opacity" style="display: block" >
+	<i class="fa fa-chevron-circle-up"></i>
+	</a>
+
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+    
+    $('.back-to-top').css({"display": "none"});
+
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    
+jQuery(document).ready(function() {
+	var offset = 250;
+	var duration = 300;
+
+	jQuery(window).scroll(function() {
+		if (jQuery(this).scrollTop() > offset) {
+			jQuery('.back-to-top').fadeIn(duration);
+		} else {
+			jQuery('.back-to-top').fadeOut(duration);
+		}
+});
+ 
+jQuery('.back-to-top').click(function(event) {
+	event.preventDefault();
+	jQuery('html, body').animate({scrollTop: 0}, duration);
+	return false;
+	})
+	
+});
+
+
+  
+    </script>
+
+    
+<!-- Add Disqus comments. -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+  var disqus_shortname = '<USERNAME>'; // required: replace example with your forum shortname
+  var disqus_identifier = "/fotobearbeitung/2016/06/06/lightroom-fuer-ungeduldige/";
+
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+  </body>
+</html>
