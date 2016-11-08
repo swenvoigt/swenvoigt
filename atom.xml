@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Swen Voigt</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2016-11-08T15:49:07+01:00</updated>
- <id>http://localhost:4000</id>
+ <link href="https://swenvoigt.github.io/swenvoigt//atom.xml" rel="self"/>
+ <link href="https://swenvoigt.github.io/swenvoigt//"/>
+ <updated>2016-11-08T16:21:58+01:00</updated>
+ <id>https://swenvoigt.github.io/swenvoigt/</id>
  <author>
    <name>Swen Voigt</name>
    <email>swen.voigt@gmail.com</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Namibia in einem Monat</title>
-   <link href="http://localhost:4000/reisen/2016/10/15/namibia-in-einem-monat/"/>
+   <link href="https://swenvoigt.github.io/swenvoigt//reisen/2016/10/15/namibia-in-einem-monat/"/>
    <updated>2016-10-15T00:00:00+02:00</updated>
-   <id>http://localhost:4000/reisen/2016/10/15/namibia-in-einem-monat</id>
+   <id>https://swenvoigt.github.io/swenvoigt//reisen/2016/10/15/namibia-in-einem-monat</id>
    <content type="html">&lt;p&gt;In diesem Beitrag beschreibe ich eine einmonatige Reise im September durch Namibia und zurück über Botswana. Und zwar so, wie ich sie mit dem Wissen nach dem Urlaub nochmal machen würde. Also ohne unsere ursprünglichen Planungsfehler. Ihr benötigt ein Allrad-Fahrzeug mit einem Zelt auf dem Dach (oder im Kofferraum) und solltet auch offen für Offroad-Strecken sein.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -26,7 +26,7 @@
 
 &lt;p&gt;Die Tour beginnt in Windhoek, geht über einen Köcherbaumwald in Keetmanshoop nach Süden zum Fish River Canyon. Dann weiter im Uhrzeigersinn … doch schaut selbst:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/namibia/namibia-overview.jpg&quot; alt=&quot;Namibia &amp;Uuml;bersicht&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/namibia/namibia-overview.jpg&quot; alt=&quot;Namibia &amp;Uuml;bersicht&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Sind ein paar touristische Highlights nicht dabei? Selbstverständlich! Wir hätten uns gerne Geparden in &lt;a href=&quot;http://www.okonjima.com/content/okonjima_german&quot;&gt;Okonjima&lt;/a&gt; angeschaut oder wären am &lt;a href=&quot;http://www.namibia-info.net/namibia-reisefuehrer/zentral-namibia/waterberg-plateau.html&quot;&gt;Waterberg Tafelberg&lt;/a&gt; gewandert. Aufgrund der limitierten Urlaubstage funktionierte das natürlich nicht. Und so mussten auch wir Prioritäten setzen. Einige Alternativen sind jedoch weiter unten beschrieben.&lt;/p&gt;
 
@@ -118,7 +118,7 @@ Namibia besteht fast nur aus Sand und Staub. Mietet daher, auch wenn ihr nur zu 
 
 &lt;aside&gt;
    &lt;figure class=&quot;figure-right&quot; style=&quot;width: 40%&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/namibia/bushlore-ladeflaeche.jpg&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/namibia/bushlore-ladeflaeche.jpg&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;p&gt;Viele Touristen waren in &lt;a href=&quot;http://bushlore.com/docs/cruisspec4.pdf&quot;&gt;Landcruisern der Firma Bushlore&lt;/a&gt; unterwegs. Sie waren, was die Verstaumöglichkeiten anbetrifft, wesentlich besser ausgestattet als unser Kfz. Die Firma hat auch beide Heavy-Duty-Reserveräder aussen befestigt, was zusätzlich Platz schafft. Auch die Ausstattungsliste war wesentlich länger.&lt;/p&gt;
@@ -135,7 +135,7 @@ Am Campingplatz lernten wir den Profifotografen &lt;a href=&quot;http://www.davi
 &lt;h2 id=&quot;a-namea5atag-3---zum-fish-river-canyon-180-km&quot;&gt;&lt;a name=&quot;a5&quot;&gt;&lt;/a&gt;Tag 3 - Zum Fish River Canyon (180 km)&lt;/h2&gt;
 &lt;aside&gt;
    &lt;figure class=&quot;figure-right&quot; style=&quot;width: 40%&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/namibia/fish-river-canyon.jpg&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/namibia/fish-river-canyon.jpg&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;p&gt;Am frühen Morgen macht ihr sicher noch einen Spaziergang im Köcherbaumwald bevor die Fahrt in den Fish River Canyon weitergeht. Die Strasse ist nun nicht mehr asphaltiert, so dass ihr nicht mehr so schnell vorwärts kommt. Spätestens auf dem Weg zum Canyon organisiert euch einen Stellplatz im Zeltplatz des Gondwana Canyon Roadhouse. (Wir unterliessen das leider und mussten daher am Hobas Campingplatz mit sehr wenig Infrastruktur nächtigen.)&lt;br /&gt;
@@ -148,7 +148,7 @@ Wenn nun langsam die goldene Stunde naht, fahrt doch schonmal zur Ghost Mining T
 &lt;h2 id=&quot;a-namea7atag-5---fuumlhrung-durch-kolmanskop-und-weiter-nach-sesriem-470-km&quot;&gt;&lt;a name=&quot;a7&quot;&gt;&lt;/a&gt;Tag 5 - Führung durch Kolmanskop und weiter nach Sesriem (470 km)&lt;/h2&gt;
 &lt;aside&gt;
    &lt;figure class=&quot;figure-right&quot; style=&quot;width: 40%&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/namibia/luederitz-kolmanskop.jpg&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/namibia/luederitz-kolmanskop.jpg&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;p&gt;Je nach Wochentag finden die Führungen durch die Geisterstadt um 9:30 Uhr und 11 Uhr statt oder am Sonntag nur um 10 Uhr. Die Führung ist recht interessant. Anschliessend darf man sich auf dem Gelände frei bewegen. Wie zu erwarten war, gelingen die Fotos nun nicht mehr so einfach wie am Vortag, da nun immer “gegnerische” Touristen durchs Bild laufen. Wer grosses Interesse an weiteren Geisterstädten hat, kann sich bei einem Anbieter weitere Touren zur Elizabeth Bay, nach Pomona und Bogenfels organisieren lassen. Nähere Infos findet ihr &lt;a href=&quot;http://www.namibia-info.net/namibia-reisefuehrer/sued-namibia/kolmanskop/reisehinweise.html&quot;&gt;hier&lt;/a&gt;&lt;br /&gt;
@@ -157,7 +157,7 @@ Wir haben leider nicht so viel Zeit und müssen zügig weiter nach Sesriem fahre
 &lt;h2 id=&quot;a-namea8atag-6---duumlnenprogramm-und-naukluftgebirge-220-km&quot;&gt;&lt;a name=&quot;a8&quot;&gt;&lt;/a&gt;Tag 6 - Dünenprogramm und Naukluftgebirge (220 km)&lt;/h2&gt;
 &lt;aside&gt;
    &lt;figure class=&quot;figure-right&quot; style=&quot;width: 40%&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/namibia/sesriem-dead-vlei.jpg&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/namibia/sesriem-dead-vlei.jpg&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;p&gt;Wir stehen also um 5 Uhr morgens auf, packen alles zusammen und fahren um 6 Uhr zum Dead Vlei. Die ersten 60 km sind asphaltiert und es gibt niemanden, der sich an die Geschwindigkeitsbegrenzung hält. Die letzten Kilometer sind offroad im Sand zu fahren. Wir haben keine Erfahrung mit Tiefsandstrecken, können uns aber irgendwie durchwühlen. Die anderen schaffen es ja auch. Wichtig ist, nicht stehen zu bleiben.&lt;br /&gt;
@@ -170,8 +170,8 @@ Wir fahren weiter zum staatlichen NWR Naukluft Campingplatz mit der Einfahrt ca.
 &lt;h2 id=&quot;a-namea10atag-8---nach-walvis-bay-uumlber-solitaire-kuiseb-pass-und-duumlne-7-500-km&quot;&gt;&lt;a name=&quot;a10&quot;&gt;&lt;/a&gt;Tag 8 - Nach Walvis Bay über Solitaire, Kuiseb Pass und Düne 7 (500 km)&lt;/h2&gt;
 &lt;aside&gt;
    &lt;figure class=&quot;figure-right&quot; style=&quot;width: 40%&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/namibia/walvis-bay-dune-7.jpg&quot; /&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/namibia/walvis-bay-flamingos.jpg&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/namibia/walvis-bay-dune-7.jpg&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/namibia/walvis-bay-flamingos.jpg&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 
@@ -191,7 +191,7 @@ Ein Besuch der Robbenkolonie ist zwischen 10 Uhr und 17 Uhr (1. Juli bis 15. Nov
 &lt;h2 id=&quot;a-namea12atag-10---robbenkolonie-und-ugab-menhir-4x4-trail-120-km&quot;&gt;&lt;a name=&quot;a12&quot;&gt;&lt;/a&gt;Tag 10 - Robbenkolonie und Ugab Menhir 4x4 Trail (120 km)&lt;/h2&gt;
 &lt;aside&gt;
    &lt;figure class=&quot;figure-right&quot; style=&quot;width: 50%&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/namibia/ughab-menhir-4x4-overview.jpg&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/namibia/ughab-menhir-4x4-overview.jpg&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;p&gt;Am Vormittag besucht ihr die Robbenkolonie. Das geht relativ unkompliziert auf einem eigens dafür angelegten Holzsteg und startet dann in den Ugab Menhir 4x4-Trail. Wobei der Allradantrieb überhaupt nicht benötigt wird. Auf diesem Einsteiger-Trail sind hunderte &lt;a href=&quot;https://de.wikipedia.org/wiki/Welwitschie&quot;&gt;Welwitschia-Pflanzen&lt;/a&gt; - sie ist auch im Wappen Namibias vertreten - zu finden. Die Felsenlandschaft ist sehr bizzarr und eine echte Abwechslung zu den letzten öden Strecken an der Küste entlang.&lt;/p&gt;
@@ -210,7 +210,7 @@ Die GPS-Koordinaten sind wie folgt:&lt;/p&gt;
 
 &lt;h2 id=&quot;a-namea13atag-11---omaruru-river-4x4-trail-zur-spitzkoppe-160-km&quot;&gt;&lt;a name=&quot;a13&quot;&gt;&lt;/a&gt;Tag 11 - Omaruru River 4x4 Trail zur Spitzkoppe (160 km)&lt;/h2&gt;
 &lt;p&gt;Wenn euch die 4x4-Tour am Vortag gefallen hat, dann fahrt doch durch das ausgetrocknete Flussbett des Omaruru Flusses zum Spitzkoppe Rest Camp. Die Tiefsand-Strecke im Flussbett hat in etwa die gleiche Beschaffenheit, wie die letzten 5 km zum Dead Vlei in Sesriem. Fahrt dazu vom Cape Cross die C34 in Richtung Henties Bay und tankt dort. Dann nehmt die C35. Von dort führt ein Trail zur Staumauer, fahrt darüber und folgt den Trails in das ausgetrocknete Flussbett. Ab jetzt ist die Strecke selbsterklärend, denn die nächsten 70 km führen nicht aus dem Flussbett heraus. Der restliche Streckenabschnitt an der kleinen Spitzkoppe herum bis zum Spitzkoppe Rest Camp ist eine wenig befahrene Gravel Road.
-&lt;img src=&quot;http://localhost:4000/assets/namibia/omaruru-river-4x4-overview.jpg&quot; alt=&quot;Omaruru River 4x4 Trail&quot; /&gt;
+&lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/namibia/omaruru-river-4x4-overview.jpg&quot; alt=&quot;Omaruru River 4x4 Trail&quot; /&gt;
 Für die Strecke von der C35 bis zum Spitzkoppe Camp solltet ihr 5 Stunden einplanen. Die GPS-Wegpunkte sind wie folgt:&lt;/p&gt;
 
 &lt;table&gt;
@@ -224,7 +224,7 @@ Für die Strecke von der C35 bis zum Spitzkoppe Camp solltet ihr 5 Stunden einpl
 
 &lt;aside&gt;
    &lt;figure class=&quot;figure-right&quot; style=&quot;width: 40%&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/namibia/spitzkoppe-arch.jpg&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/namibia/spitzkoppe-arch.jpg&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;p&gt;Die Stellplätze im Spitzkoppe Camp liegen sehr weit verstreut auf dem Gelände. Es war eines der am schönsten gelegen Camps mit toller Aussicht auf die Felsen. Ihr solltet daher versuchen, am Nachmittag bereits dort zu sein, um die Gegend bereits erkunden zu können. Entgegen den Aussagen auf diversen Webseiten und &lt;a href=&quot;http://wantseeproject.com/wp-content/uploads/2015/10/Matterhorn-of-Namibia-Map.jpg&quot;&gt;Geländekarten&lt;/a&gt; konnten wir übrigens über den Westeingang rein- und wieder rausfahren.&lt;/p&gt;
@@ -239,7 +239,7 @@ Für die Strecke von der C35 bis zum Spitzkoppe Camp solltet ihr 5 Stunden einpl
 &lt;h2 id=&quot;a-namea15atag-13---4x4-trail-vom-rhino-camp-uumlber-twyfelfontein-nach-palmwag-220-km&quot;&gt;&lt;a name=&quot;a15&quot;&gt;&lt;/a&gt;Tag 13 - 4x4 Trail vom Rhino Camp über Twyfelfontein nach Palmwag (220 km)&lt;/h2&gt;
 &lt;aside&gt;
    &lt;figure class=&quot;figure-right&quot; style=&quot;width: 40%&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/namibia/rhino-camp-to-twyfelfontein.jpg&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/namibia/rhino-camp-to-twyfelfontein.jpg&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;p&gt;Eine der schönsten 4x4-Strecken - die “Strasse” D2303 - führt direkt vom Rhino Camp am Doros Crater und Burnt Mountain vorbei nach Twyfelfontein. Am Zeltplatz Rhino Camp steht sogar ein Wegweiser! In Twyfelfontein im Damaraland schaut ihr euch die &lt;a href=&quot;http://www.namibia-1on1.com/organ-pipes.html&quot;&gt;Organ Pipes&lt;/a&gt; und die &lt;a href=&quot;https://de.wikipedia.org/wiki/Twyfelfontein&quot;&gt;Felsgravuren&lt;/a&gt; an. Wir planten eigentlich im Aba-Huab Restcamp ca. 5 km nördlich von Twyfelfontein übernachten. Es wurde im Reiseführer wegen der schönen Lage am Flus beworben. Es liegt aber auch direkt an der staubigen Strasse und der Platz sah nicht nur staubig aus sondern auch sehr verwaist. Die Rezensionen der anderen 2 Zeltplätze sahen auch nicht besser aus. Und so fuhren wir 120 km weiter zum Zeltplatz der &lt;a href=&quot;palmwaglodge.com&quot;&gt;Palmwag Lodge&lt;/a&gt;. Sie liegt an einem kleinen Fluss und somit ist es überraschend grün. Leider ist die Campsite mit 180 NAD pro Person recht teuer. Die Lodge bietet natürlich auch ein gutes, wenn auch relativ teures, Restaurant. Doch als Camper hat man ja die Option, es nicht zu nutzen. Wenige Kilometer vor der Lodge, im Örtchen Palmwag, solltet ihr euren Tank auffüllen.&lt;/p&gt;
@@ -247,7 +247,7 @@ Für die Strecke von der C35 bis zum Spitzkoppe Camp solltet ihr 5 Stunden einpl
 &lt;h2 id=&quot;a-namea16atag-14---4x4-tour-mit-tierbeobachtung-in-der-palmwag-konzession-60-km&quot;&gt;&lt;a name=&quot;a16&quot;&gt;&lt;/a&gt;Tag 14 - 4x4-Tour mit Tierbeobachtung in der Palmwag Konzession (60 km)&lt;/h2&gt;
 &lt;aside&gt;
    &lt;figure class=&quot;figure-right&quot; style=&quot;width: 50%&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/namibia/palmwag-4x4-overview.jpg&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/namibia/palmwag-4x4-overview.jpg&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;p&gt;Ungefähr 10 km nord-östlich der Lodge ist die bewachte Schranke zur &lt;a href=&quot;http://www.dt800.de/nam%20palmwag%20beschreibung.htm&quot;&gt;Palmwag Konzession&lt;/a&gt;. Ein Permit könnt ihr entweder in der Lodge oder direkt am Eingang erwerben. Mit dem Permit erhaltet ihr &lt;a href=&quot;http://www.bwana.de/namibia/geheimtipps/palmwag-konzessionsgebiet.html&quot;&gt;diese Karte&lt;/a&gt;. Der Wachmann an der Schranke sollte die aktuellen Informationen über Tiersichtungen haben und sagt euch, wo ihr am besten zuerst hinfahren könnt.&lt;br /&gt;
@@ -320,7 +320,7 @@ Anfangs schaut der Weg in die Palmwag Konzession überhaupt nicht nach 4x4 aus. 
 
 &lt;aside&gt;
    &lt;figure class=&quot;figure-right&quot; style=&quot;width: 65%&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/namibia/etosha-dolomite-camp.jpg&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/namibia/etosha-dolomite-camp.jpg&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;p&gt;Wir kehrten am frühen Nachmittag im Dolomite Camp für eine Rast ein. Ich bin mir nicht sicher, ob das edle und teure Dolomite Camp auf Tagesgäste eingestellt ist. Aber die netten Angestellten verkauften uns Getränke, Kaffee und Kuchen. Am Wasserloch, nicht weit vom Camp entfernt, hielten sich mehrere Elefantenfamilien auf. Dann ging weiter zum Olifantrus Camp. Da wir während unserer gesamten Tour keine Campsite vorreservierten, bekamen wir natürlich im Etosha Nationalpark immer nur einen Reserveplatz. Im Gegensatz zu den vorreservierten Plätzen hatte der immerhin Schatten. Wenn ihr keinen Platz reserviert habt, empfiehlt es sich mit dem Einchecken nicht bis zum Abend zu warten.&lt;/p&gt;
@@ -329,8 +329,8 @@ Anfangs schaut der Weg in die Palmwag Konzession überhaupt nicht nach 4x4 aus. 
 &lt;p&gt;Die weitere Tour im Etosha Park ist selbsterklärend. Wir bei Olifantsrus gilt auch hier: Kommt früh genug beim Okaukuejo Camp an. Es ist der grösste Campground im Park. Die meisten Besucher fahren über das südlich gelegene Andersons Gate ein und entsprechend voll ist es. Solltet ihr keinen Reserveplatz bekommen, lauft ihr Gefahr, dass ihr auf einen Zeltplatz ausserhalb des Nationalparks ausweichen müsst. Übrigens könnt ihr hier euren Tank auffüllen.&lt;/p&gt;
 
 &lt;div class=&quot;album&quot;&gt;
- 	&lt;figure&gt;&lt;img src=&quot;http://localhost:4000/assets/namibia/etosha-loewen.jpg&quot; /&gt; &lt;/figure&gt;
- 	&lt;figure&gt;&lt;img src=&quot;http://localhost:4000/assets/namibia/etosha-rhino.jpg&quot; /&gt; &lt;/figure&gt;
+ 	&lt;figure&gt;&lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/namibia/etosha-loewen.jpg&quot; /&gt; &lt;/figure&gt;
+ 	&lt;figure&gt;&lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/namibia/etosha-rhino.jpg&quot; /&gt; &lt;/figure&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Das beleuchtete Wasserloch im Okaukuejo Camp ist eines der Highlights. Wir hatten hier Elefanten und Black Rhinos beim Sonnenuntergang.&lt;/p&gt;
@@ -346,7 +346,7 @@ Anfangs schaut der Weg in die Palmwag Konzession überhaupt nicht nach 4x4 aus. 
 &lt;h2 id=&quot;a-namea23atag-21---nach-kongola-in-den-bwabwata-nationalpark-200-km&quot;&gt;&lt;a name=&quot;a23&quot;&gt;&lt;/a&gt;Tag 21 - Nach Kongola in den Bwabwata Nationalpark (200 km)&lt;/h2&gt;
 &lt;aside&gt;
    &lt;figure class=&quot;figure-right&quot; style=&quot;width: 50%&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/namibia/horseshoe-4x4-overview.jpg&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/namibia/horseshoe-4x4-overview.jpg&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;p&gt;Von Divundu geht es auf dem Trans-Caprivi-Highway in Richtung Kongola. Kurz bevor ihr den Kwando überquert ist rechts die Einfahrt zur Rezeption des Bwabwata Nationalparks. Von dort fahrt auf einem 4x4-Trail weiter zum &lt;a href=&quot;http://www.openstreetmap.org/#map=16/-17.8770/23.3200&quot;&gt;Nambwa Community Camp&lt;/a&gt; und versucht dort eine Campsite zu ergattern. Es gibt nur fünf Stellplätze und laut Auskunft von namibischen Campern sind die immer sehr gut im Voraus ausgebucht. (Als wir jedoch Ende September übernachteten waren insgesamt nur zwei Plätze belegt.) Alle Sites liegen sehr schön am Kwando, auf einer Holzplattform direkt am Fluss kann man wunderbar entspannen und Elefanten, Flusspferde, einen Waran, Erdmännchen und viele Vögel beobachten. In sehr schönen Lodge gleich nebenan kann man auch sehr gut zu Abend essen. Man muss es nur vorher anmelden.&lt;/p&gt;
@@ -365,8 +365,8 @@ Anfangs schaut der Weg in die Palmwag Konzession überhaupt nicht nach 4x4 aus. 
 
 &lt;h2 id=&quot;a-namea26atag-24---hausboottour-auf-dem-zambesi-und-chobe-0-km&quot;&gt;&lt;a name=&quot;a26&quot;&gt;&lt;/a&gt;Tag 24 - Hausboottour auf dem Zambesi und Chobe (0 km)&lt;/h2&gt;
 &lt;div class=&quot;album&quot;&gt;
- 	&lt;figure&gt;&lt;img src=&quot;http://localhost:4000/assets/namibia/chobe-profis.jpg&quot; /&gt; &lt;/figure&gt;
- 	&lt;figure&gt;&lt;img src=&quot;http://localhost:4000/assets/namibia/chobe-hippos.jpg&quot; /&gt; &lt;/figure&gt;
+ 	&lt;figure&gt;&lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/namibia/chobe-profis.jpg&quot; /&gt; &lt;/figure&gt;
+ 	&lt;figure&gt;&lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/namibia/chobe-hippos.jpg&quot; /&gt; &lt;/figure&gt;
 &lt;/div&gt;
 &lt;p&gt;Ihr seid noch immer auf dem Zambesi unterwegs. Am Nachmittag werdet kurz vor Kasane aus dem Kanal zwischen Zambesi und Chobe herausfahren und endlich im Chobe Nationalpark sein. Um genau zu sein, befindet ihr euch natürlich auf der namibischen Seite, auf der es keinen Nationalpark gibt.  Auf der Fahrt entlang der “Chobe Riverfront” seht ihr unglaublich viele Elefanten, Flusspferde, Wasserbüffel, Krokodile, Zebras und so weiter. Da ihr in einem Boot unterwegs seid, könnt ihr den ganzen Elefantenfamilien beim Durchschwimmen des Chobe aus nächster Nähe beobachten. Überhaupt kommt ihr im Boot viel näher an die Tiere heran.&lt;/p&gt;
 
@@ -381,7 +381,7 @@ Anfangs schaut der Weg in die Palmwag Konzession überhaupt nicht nach 4x4 aus. 
 
 &lt;aside&gt;
    &lt;figure class=&quot;figure-right&quot; style=&quot;width: 40%&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/namibia/vic-falls.jpg&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/namibia/vic-falls.jpg&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;p&gt;Nach spätestens 3 Stunden ist die Rundtour an den Viktoriafällen abgeschlossen. Insbesondere, da die im September nur wenig Wasser herunterfällt. Egal, ob ihr den &lt;a href=&quot;http://www.shearwatervictoriafalls.com/activities/flight-of-angels/&quot;&gt;Flight of Angels&lt;/a&gt; - einen Huschrauberrundflug über die Fälle - bucht oder nicht, besucht auf jeden Fall den Touri-Markt. Die angebotenen Schnitzereien und Speckstein-Kunstwerke sind weit besser, als alles was ihr in Namibia oder Botswana erwerben könnt. Auf dem Weg zum Markt macht der Veranstalter üblicherweise einen Fotostop am &lt;a href=&quot;https://en.wikipedia.org/wiki/Big_Tree_at_Victoria_Falls&quot;&gt;Big Tree&lt;/a&gt;, einem uralten, riesigen Baobab. Spätestens ab 16 Uhr fahrt ihr wieder zurück nach Kasane.&lt;/p&gt;
@@ -395,8 +395,8 @@ Anfangs schaut der Weg in die Palmwag Konzession überhaupt nicht nach 4x4 aus. 
 &lt;p&gt;Von Mababe ist es nicht weit bis zum North Gate des Moremi-Wildreservats. Idealerweise habt ihr auf einem der beiden Zeltplätze - Xakanaxa oder Third Bridge - einen Platz reservieren können. Falls nicht, dann lasst euch nicht entmutigen. An den Gates wird einem gesagt, dass die Campsites ausgebucht sind. Fragt man aber direkt am Camp nach, ist das meist nicht der Fall. Da die Stellplätze auf beiden Zeltplätzen sehr weit auseinanderliegen, kann man sich auch einen Stellplatz mit Reisebekanntschaften teilen.&lt;/p&gt;
 
 &lt;div class=&quot;album&quot;&gt;
- 	&lt;figure&gt;&lt;img src=&quot;http://localhost:4000/assets/namibia/moremi-delta-xakanaxa.jpg&quot; /&gt; &lt;/figure&gt;
- 	&lt;figure&gt;&lt;img src=&quot;http://localhost:4000/assets/namibia/moremi-delta-1.jpg&quot; /&gt; &lt;/figure&gt;
+ 	&lt;figure&gt;&lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/namibia/moremi-delta-xakanaxa.jpg&quot; /&gt; &lt;/figure&gt;
+ 	&lt;figure&gt;&lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/namibia/moremi-delta-1.jpg&quot; /&gt; &lt;/figure&gt;
 &lt;/div&gt;
 &lt;p&gt;In Xakanaxa werden einstündige Bootstouren (550 Pula pro Boot, nicht pro Person) angeboten. Das Third Bridge Camp ist deshalb bei Kennern beliebt, da an dieser engen Stelle am Abend alle Tiere am Lagerfeuer vorbeikommen. Da sind wohl auch mal Löwen dabei. Man erkennt die Engstelle sehr schön auf &lt;a href=&quot;http://www.openstreetmap.org/#map=13/-19.2314/23.3896&quot;&gt;dieser Karte&lt;/a&gt;. Aber auch auf dem Xakanaxa Camp fahren viele Camper wegen der Hyänen am Abend lieber mit dem Auto zur Toilette.&lt;/p&gt;
 
@@ -419,9 +419,9 @@ Anfangs schaut der Weg in die Palmwag Konzession überhaupt nicht nach 4x4 aus. 
  
  <entry>
    <title>Lightroom für Ungeduldige</title>
-   <link href="http://localhost:4000/fotobearbeitung/2016/06/06/lightroom-fuer-ungeduldige/"/>
+   <link href="https://swenvoigt.github.io/swenvoigt//fotobearbeitung/2016/06/06/lightroom-fuer-ungeduldige/"/>
    <updated>2016-06-06T00:00:00+02:00</updated>
-   <id>http://localhost:4000/fotobearbeitung/2016/06/06/lightroom-fuer-ungeduldige</id>
+   <id>https://swenvoigt.github.io/swenvoigt//fotobearbeitung/2016/06/06/lightroom-fuer-ungeduldige</id>
    <content type="html">&lt;p&gt;Als ich vor einigen Jahren RAW-Unterstützung benötigte, viel meine Wahl auf Aperture 3 von Apple. Vor allem wegen der tollen Diashows. Also migrierte ich alle Fotos von iPhoto nach Aperture 3. Ein Jahr später kündigte Apple an, das Produkt einzustampfen. Danke, Apfel-Firma! Alle neuen Fotos bearbeite ich inzwischen in Lightroom 6. Da ich anfangs aufgrund der unglaublich vielen Setup-Möglichkeiten etwas verloren war, beschreibe ich in diesem Post in möglichst kurzer Form mein Setup und den Workflow.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -555,8 +555,8 @@ Letztendlich ergibt sich eine solche beispielhafte Verzeichnisstruktur:&lt;/p&gt
 Im Menu Voreinstellung (⌘&lt;b&gt;U&lt;/b&gt;)&lt;/p&gt;
 &lt;aside&gt;
    &lt;figure class=&quot;figure-right&quot; style=&quot;width: 50%&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/lightroom-fuer-ungeduldige/Lightroom - Voreinstellung 1.png&quot; /&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/lightroom-fuer-ungeduldige/Lightroom - Katalogeinstellungen.png&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/lightroom-fuer-ungeduldige/Lightroom - Voreinstellung 1.png&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/lightroom-fuer-ungeduldige/Lightroom - Katalogeinstellungen.png&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;p&gt;Stellt dort sicher, dass JPEG-Dateien mit gleichem Dateinamen nicht als separate Fotos importiert werden. Sind im zu importierenden Verzeichnis Fotos in zwei Formaten - eben JPEG und RAW -, dann wird das RAW ausschliesslich importiert. Lightroom wird sich auch merken, dass es noch eine JEPG-Datei gibt. Solltet ihr später das Fotos via Lightroom löschen (“vom Datenträger löschen”), so werden beide Formate entfernt.
@@ -566,8 +566,8 @@ Wichtig sind noch die Katalogeinstellungen (⌥⌘&lt;b&gt;,&lt;/b&gt;) für die
 &lt;p&gt;Nachdem alle Fotoaufnahmen in das entsprechende Zielverzeichnis kopiert wurden, kann das Importieren beginnen. Den Import der Bilder von der via USB angeschlossenen Kamera nutze ich nicht, da ich mit der Kamera angefertigte Filmaufnahmen zur Bearbeitung mit Final Cut Pro woanders ablege. Ich hatte anfangs Probleme zu verstehen, dass man am besten tatsächlich alle Fotos - auch die vielen misslungenen - in Lightroom importiert. Sie werden im nächsten Schritt des Workflows entfernt.&lt;br /&gt;&lt;/p&gt;
 &lt;aside&gt;
    &lt;figure class=&quot;figure-right&quot; style=&quot;width: 40%&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/lightroom-fuer-ungeduldige/Lightroom - Import 1.png&quot; /&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/lightroom-fuer-ungeduldige/Lightroom - Import 2.png&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/lightroom-fuer-ungeduldige/Lightroom - Import 1.png&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/lightroom-fuer-ungeduldige/Lightroom - Import 2.png&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;p&gt;Über &lt;i&gt;Datei &lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt; Fotos und Videos importieren&lt;/i&gt; (⇧⌘&lt;b&gt;I&lt;/b&gt;) wählt ihr das zu importierende Verzeichnis aus - bestätigt aber noch nicht den Import. Stellt sicher das im oberen Bereich des Dialogs “Hinzufügen” ausgewählt ist (siehe Bildschirmfoto). So belässt Lightroom die Fotodateien alle am ursprünglichen Ort und fügt dem eigenen Katalog lediglich eine Referenz zum Foto hinzu.
@@ -578,14 +578,14 @@ Im linken Bedienfeld findet ihr eine Ordner-Struktur, in der euer importiertes V
 &lt;h2 id=&quot;a-namea6a-aussortieren---bibliotheks-modul&quot;&gt;&lt;a name=&quot;a6&quot;&gt;&lt;/a&gt; Aussortieren - Bibliotheks-Modul&lt;/h2&gt;
 &lt;aside&gt;
    &lt;figure class=&quot;figure-right&quot; style=&quot;width: 30%&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/lightroom-fuer-ungeduldige/Lightroom - Modul.png&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/lightroom-fuer-ungeduldige/Lightroom - Modul.png&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;p&gt;Wir befinden uns immer noch in Lightrooms Bibliotheks-Modul und wählen im Ordner-Bedienfeld das zuletzt importierte Event aus. Im untersten Teil des Arbeitsbereichs findet ihr alle importieren Fotos als kleine Filmstreifen. Der grosse mittlere Bildbearbeitungsbereich zeigt möglicherweise ebenfalls Filmstreifen an oder genau das aktuell ausgewählte Foto oder einen Ausschnitt daraus.&lt;br /&gt;
 Selektiert nun mit der Maus das erste Foto in der unteren Filmstreifen-Ansicht und drückt gegebenenfalls die Enter-Taste, bis ihr euer Foto in der Grossansicht seht. Gefällt es euch nicht, dann drückt die Taste “x”. Das bedeutet “abgelehnt”. Überlegt ihr euch es anders, hilft die Taste “u” wie “Unmarkiert”.&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;aside&gt;
    &lt;figure class=&quot;figure-right&quot; style=&quot;width: 30%&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/lightroom-fuer-ungeduldige/Lightroom - Filter.png&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/lightroom-fuer-ungeduldige/Lightroom - Filter.png&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;p&gt;Mit den Cursortasten navigiert ihr in den Fotos vor und zurück und lehnt alle ungeratenen Fotos ab. Ihr werdet feststellen, dass das sehr flink funktioniert. Das liegt an den bereits erstellten 1:1-Vorschaubildern. Ohne diese Vorgenerierung würde Lightroom erst jetzt bei jedem einzelnen Fotos eine kleine Bedenk-Sekunde einlegen.&lt;br /&gt;
@@ -598,7 +598,7 @@ Ihr kommt also mit den Cursortasten und “x” recht schnell voran.&lt;/p&gt;
 &lt;h2 id=&quot;a-namea7a-verbessern---entwickeln-modul&quot;&gt;&lt;a name=&quot;a7&quot;&gt;&lt;/a&gt; Verbessern - Entwickeln-Modul&lt;/h2&gt;
 &lt;aside&gt;
    &lt;figure class=&quot;figure-right&quot; style=&quot;width: 30%&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/lightroom-fuer-ungeduldige/Lightroom - Modul.png&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/lightroom-fuer-ungeduldige/Lightroom - Modul.png&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;p&gt;Wir haben bisher alle Fotos importiert, für ein schnelles Arbeiten die 1:1-Vorschauen generieren lassen und nur die guten Fotos behalten. Eventuell habt ihr bereits beim Import eine generische Verbesserung über eine Bearbeitungsvorlage vorgenommen. Aber das wird nicht allen Ansprüchen genügen. Eine Beschreibung der Funktionen würde jedoch den Rahmen dieses Beitrags sprengen. Ein Video-Grundlagenkurs - z.B. einer von Video2Brain - hilft hier weiter. Wem das zu ausführlich ist, der mag bei &lt;a href=&quot;https://www.youtube.com/watch?v=Jgg4Kxf1Czk&quot;&gt;Youtube&lt;/a&gt; fündig werden. Mir genügen die folgenden Arbeitsschritte im Modul:&lt;/p&gt;
@@ -618,7 +618,7 @@ Ihr kommt also mit den Cursortasten und “x” recht schnell voran.&lt;/p&gt;
 &lt;h3 id=&quot;freistellen-und-gerade-ausrichten&quot;&gt;Freistellen und gerade ausrichten:&lt;/h3&gt;
 &lt;aside&gt;
    &lt;figure class=&quot;figure-right&quot; style=&quot;width: 30%&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/lightroom-fuer-ungeduldige/Lightroom - Entwickeln 1.png&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/lightroom-fuer-ungeduldige/Lightroom - Entwickeln 1.png&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;p&gt;Wählt im Panel das Rechteck links aus (bzw. nehmt die Taste R). Dann beschneidet das Foto. Rückt gegebenenfalls den Horizont gerade: Das Winkelsymbol selektieren, dann im Foto eine Linie am Horizont ziehen. Lightroom berechnet dann den Winkel selbst.&lt;/p&gt;
@@ -626,7 +626,7 @@ Ihr kommt also mit den Cursortasten und “x” recht schnell voran.&lt;/p&gt;
 &lt;h3 id=&quot;bereichsreparatur&quot;&gt;Bereichsreparatur:&lt;/h3&gt;
 &lt;aside&gt;
    &lt;figure class=&quot;figure-right&quot; style=&quot;width: 25%&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/lightroom-fuer-ungeduldige/Lightroom - Sensorflecken.png&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/lightroom-fuer-ungeduldige/Lightroom - Sensorflecken.png&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;p&gt;Verwendet die Bereichsreparatur, wenn sich der Staub auf dem Sensor bei blauem Himmel oder anderen grossen Flächen bemerkbar macht. Wählt den Kreis mit dem Pfeil aus (bzw. nehmt die Taste Q). Selektiert unter dem Foto das Kästchen “Bereiche anzeigen” und zieht den Regler auf 100%. Dadurch seht ihr Sensorflecken mit dem blossen Auge - das sind die 5 Kreise im Foto - und könnt sie einfach mit dem Stempel reparieren.&lt;/p&gt;
@@ -670,9 +670,9 @@ Daher verwende ich &lt;a href=&quot;https://www.boinx.com/fotomagico/buy/&quot;&
  
  <entry>
    <title>Durch Sri Lanka in zwei Wochen</title>
-   <link href="http://localhost:4000/reisen/2016/05/10/sri-lanka-in-zwei-wochen/"/>
+   <link href="https://swenvoigt.github.io/swenvoigt//reisen/2016/05/10/sri-lanka-in-zwei-wochen/"/>
    <updated>2016-05-10T00:00:00+02:00</updated>
-   <id>http://localhost:4000/reisen/2016/05/10/sri-lanka-in-zwei-wochen</id>
+   <id>https://swenvoigt.github.io/swenvoigt//reisen/2016/05/10/sri-lanka-in-zwei-wochen</id>
    <content type="html">&lt;p&gt;Sri Lanka ist fast so groß wie Bayern. Mit vielen artenreichen Nationalparks, den menschenleeren Stränden und dem angenehmen Hochland bietet es viel Abwechslung auf kleinem Raum. Mit der Eisenbahn und Bussen lässt es sich unkompliziert bereisen. Da nichts vorgebucht werden muss, eignet es sich hervorragend als Last-Minute-Reiseziel. 
 &lt;!--more--&gt;
 Ich möchte euch meine 08/15-Reiseroute vorstellen, die im Uhrzeigersinn von Colombo über Kandy, Nuwara Eliya im Hochland, Ella, Yala und Unawatuna/Galle führt. Da ich mit schwerem Gepäck (mehr als 30 kg) unterwegs war, kann ich euch nur eine bequeme Variante aufzeigen. Sie folgt im Wesentlichen den Empfehlungen &lt;a href=&quot;http://my-road.de/reisen/asien/sri-lanka/&quot;&gt;dieser Seite&lt;/a&gt;.&lt;/p&gt;
@@ -713,7 +713,7 @@ Auf das Smartphone gehört eine Offline-Karte von Sri Lanka - zum Beispiel via &
 &lt;p&gt;Ihr müsst euch entscheiden, ob ihr nach der Landung eine Nacht in Colombo verbringen möchtet. Angeblich statten nur die wenigsten Touristen der Hauptstadt einen Besuch ab.&lt;/p&gt;
 &lt;aside&gt;
    &lt;figure class=&quot;figure-right&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/sri-lanka-in-zwei-wochen/S/Colombo Market.jpg&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/sri-lanka-in-zwei-wochen/S/Colombo Market.jpg&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;p&gt;Das &lt;a href=&quot;https://www.google.de/maps/place/Heart+Shaped+Candle+Shop/@6.9381922,79.8505259,17.78z/data=!4m5!3m4!1s0x0:0xb3cc6c9230634820!8m2!3d6.9390449!4d79.8526762&quot;&gt;Basarviertel Pettah&lt;/a&gt; nördlich vom &lt;a href=&quot;https://www.google.de/maps/place/Fort+Railway+Station/@6.9313444,79.8476571,14.74z/data=!4m13!1m7!3m6!1s0x3ae2efb735f22d5d:0x6ebd702103828b37!2sBandaranaike+International+Airport+(CMB)!3b1!8m2!3d7.1801552!4d79.8842521!3m4!1s0x3ae2592241f7b2b9:0xff9487d7c89512!8m2!3d6.9334934!4d79.850505&quot;&gt;Bahnhof Colombo Fort&lt;/a&gt; bietet sich für einen Rundgang an. Nicht weit entfernt befindet sich die &lt;a href=&quot;https://www.google.de/maps/place/Red+Mosque/@6.934587,79.8467932,15.79z/data=!4m13!1m7!3m6!1s0x3ae2efb735f22d5d:0x6ebd702103828b37!2sBandaranaike+International+Airport+(CMB)!3b1!8m2!3d7.1801552!4d79.8842521!3m4!1s0x0:0xab28d9c27e901af9!8m2!3d6.9384618!4d79.851714&quot;&gt;Jami-Ul-Alfar-Moschee&lt;/a&gt;, auch Rote Moschee genannt. Da ihr ohnehin auf ein Tuk-Tuk (bitte nur mit Taxameter!) angewiesen seid, empfiehlt sich die Rückfahrt über die Galle-Road. Vielleicht habt ihr auch Zeit für ein paar Fotos vom &lt;a href=&quot;https://www.google.de/maps/place/Chatham+Street+Clock+Tower/@6.9335856,79.8454386,15.62z/data=!4m13!1m7!3m6!1s0x3ae2efb735f22d5d:0x6ebd702103828b37!2sBandaranaike+International+Airport+(CMB)!3b1!8m2!3d7.1801552!4d79.8842521!3m4!1s0x0:0x37dbdafba84896c3!8m2!3d6.9347062!4d79.8428392&quot;&gt;Fort Clock Tower&lt;/a&gt; und den anderen kolonialen Gebäuden. Zum Beispiel dem Economic History Museum direkt am Clock Tower. Der Eintritt ist frei, der Rundgang kurz und die Räume sind klimatisiert. Ich finde, dass Colombo durchaus einen &lt;i&gt;kurzen&lt;/i&gt; Besuch wert ist. Ihr könnt ja gleich am nächsten Morgen den ersten Zug nehmen. Solltet ihr nicht in Colombo bleiben wollen, dann kauft ein &lt;a href=&quot;#die-eisenbahn&quot;&gt;Zugticket vor dem Abflug&lt;/a&gt;.&lt;/p&gt;
@@ -731,7 +731,7 @@ In der Unterkunft fragt ihr gleich nach einem Moped, um Kandy am nächsten Tag z
 &lt;p&gt;Heute steht am Vormittag der &lt;a href=&quot;https://www.google.de/maps/place/Sri+Dalada+Maligawa/@7.293649,80.6391253,17z/data=!4m12!1m6!3m5!1s0x3ae3662db149fbf5:0x8165d70ac115e887!2sSri+Dalada+Maligawa!8m2!3d7.293649!4d80.641314!3m4!1s0x3ae3662db149fbf5:0x8165d70ac115e887!8m2!3d7.293649!4d80.641314&quot;&gt;Zahntempel&lt;/a&gt; auf dem Programm. Je nach Uhrzeit und Wochentag kann es sehr gedrängt zugehen. Ab 11 Uhr scheinen weniger Einheimische die Tempel zu besuchen.&lt;/p&gt;
 &lt;aside&gt;
    &lt;figure class=&quot;figure-right&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/sri-lanka-in-zwei-wochen/S/Kandy Zahntempel.jpg&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/sri-lanka-in-zwei-wochen/S/Kandy Zahntempel.jpg&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;p&gt;Und dann geht es mit dem Moped zum &lt;a href=&quot;https://www.google.de/maps/place/Royal+Botanic+Gardens/@7.2629554,80.592804,14.8z/data=!4m5!3m4!1s0x3ae368dc6e23c2b7:0xf13c8852e3a2c4cc!8m2!3d7.268514!4d80.5965071&quot;&gt;Royal Botanical Garden&lt;/a&gt; in Peradeniya ca. 6 km westlich von Kandy. Und vielleicht habt ihr auch noch Zeit für die Bahirawa Kanda Buddha Statue. Der weiße Buddha dieses Tempels thront gut sichtbar westlich des Kandy Sees auf einem kleinen Hügel. Von ihm habt ihr einen schönen Blick auf den See, sofern ihr nicht ohnehin schon die diversen Viewpoints angefahren habt.&lt;br /&gt;
@@ -741,7 +741,7 @@ Vergesst nach euren ersten gewonnenen Eindrücken von Kandy nicht, das Zugticket
 &lt;h2 id=&quot;a-namea5atag-4---kandy-lion-rock&quot;&gt;&lt;a name=&quot;a5&quot;&gt;&lt;/a&gt;Tag 4 - Kandy (Lion Rock)&lt;/h2&gt;
 &lt;aside&gt;
    &lt;figure class=&quot;figure-right&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/sri-lanka-in-zwei-wochen/S/Sigiriya Lion Rock.jpg&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/sri-lanka-in-zwei-wochen/S/Sigiriya Lion Rock.jpg&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;p&gt;Ungefähr 90 Kilometer liegen zwischen Kandy zum &lt;a href=&quot;https://www.google.de/maps/place/Sigiriya+Lion+Rock/@7.9553895,80.7533826,15.21z/data=!4m5!3m4!1s0x3afca12792ce0f1b:0xa9fcf19ec5e7197!8m2!3d7.9565247!4d80.7602929&quot;&gt;Lion Rock in Sigiriya&lt;/a&gt;. Natürlich kann man mit einem Mini-Bus oder sogar dem Zug nach Sigiriya fahren. Aber wer es sich zutraut - und sofern es das Wetter erlaubt - kann auch mit dem Moped fahren. Dazu sollte man bereits in der Dämmerung, spätestens jedoch um 6:30 Uhr in Kandy losfahren, um zumindest auf der Hinfahrt der Hitze zu entgehen. So kann man auch in Ruhe die Umgebung des Lion Rocks erkunden und hat ausreichend Zeit auf der Rückfahrt den &lt;a href=&quot;https://www.google.de/maps/place/Dambulla+Cave+Temple/@7.8569458,80.6459723,16z/data=!4m5!3m4!1s0x3afca558c5bd3669:0xd1daa5c0936b764c!8m2!3d7.8566436!4d80.6485534&quot;&gt;Dambulla Cave Temple&lt;/a&gt; mit seinen liegenden Buddhas zu besichtigen. Spätestens um 16 Uhr solltet ihr von Dambulla wieder nach Kandy aufbrechen. Im Dunkeln sollte man auf Sri Lankas Fernverkehrstrassen nicht mit Moped unterwegs sein. Trotz gesundheitlicher Gefahren durch überholende Fernbusse, Schwerlaster und deren Abgase denke ich gerne an die Mopedfahrt zurück. Der Weg vom Lions Rock nach Dambulla führte mich am Kandalama Reservoir und wunderschönen Feldwegen mit Reihern, Storchen und netter Landbevölkerung vorbei.&lt;br /&gt;&lt;/p&gt;
@@ -755,12 +755,12 @@ Nach dem Einchecken in der Unterkunft könnt ihr euch die Pferderennbahn anschau
 &lt;p&gt;Euer Shuttle-Service wird euch ca. 4:30 Uhr für die Fahrt zum Horton-Plains-Nationalpark abholen. Nach den obligatorischen Sonnenaufgangsfotos geht es weiter zum Eingang des Nationalparks. Hier kauft man die nicht besonders günstigen Tickets. Eventuell könnt ihr eine grössere Gruppen bilden, dann wird’s günstiger.&lt;br /&gt;&lt;/p&gt;
 &lt;aside&gt;
    &lt;figure class=&quot;figure-right&quot; style=&quot;width: 30%&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/sri-lanka-in-zwei-wochen/S/Horton Plains.jpg&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/sri-lanka-in-zwei-wochen/S/Horton Plains.jpg&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;aside&gt;
    &lt;figure class=&quot;figure-left&quot; style=&quot;width: 20%&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/sri-lanka-in-zwei-wochen/S/Horton Plains 2.jpg&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/sri-lanka-in-zwei-wochen/S/Horton Plains 2.jpg&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;p&gt;Auf dem kurzen Fahrweg vom Ticket-Verkauf zum Parkplatz werdet ihr Sambars (Pferdehirsche) sehen, die euch sehr fotogen &lt;a href=&quot;https://www.youtube.com/watch?v=CnZIeqsvG9M&quot;&gt;aus der Hand essen&lt;/a&gt; werden. Natürlich sollte man sowas nicht tun, aber haltet besser ein paar Bananen und die Kamera bereit. Nach der kurzen Wanderung zu den beiden &lt;a href=&quot;https://www.google.de/maps/place/Great+World's+End+Drop/@6.7784742,80.7924907,16.84z/data=!4m13!1m7!3m6!1s0x3ae3882edb4b78ef:0xcebca89153777249!2sHorton+Plains+National+Park!3b1!8m2!3d6.8020975!4d80.8074046!3m4!1s0x0:0x818e33bb2a32673a!8m2!3d6.7806439!4d80.7945192&quot;&gt;“Worlds End”-Aussichtspunkten&lt;/a&gt; geht es am &lt;a href=&quot;https://www.google.de/maps/place/Baker's+Falls/@6.7767948,80.785478,15.13z/data=!4m13!1m7!3m6!1s0x3ae3882edb4b78ef:0xcebca89153777249!2sHorton+Plains+National+Park!3b1!8m2!3d6.8020975!4d80.8074046!3m4!1s0x0:0x80bbd2f70b7eb7aa!8m2!3d6.7926692!4d80.7894552&quot;&gt;Bakers-Wasserfall&lt;/a&gt; vorbei zurück zum Parkplatz, auf dem euer Fahrer die ganze Zeit auf euch gewartet hat. Am Nachmittag sollte noch noch genügend Zeit für eine Besichtigung einer Tee-Fabrik sein. Alternativ könnt ihr euch auch ein Stück weiter fahren lassen, um noch den höchsten Wasserfall Sri Lankas - &lt;a href=&quot;https://www.google.de/maps/place/Bambarakanda+Waterfalls/@6.7615425,80.7825916,12.7z/data=!4m5!3m4!1s0x3ae47660d0e3ef59:0x6863b33a5baad25!8m2!3d6.7732488!4d80.8313579&quot;&gt;Bambarakanda Waterfalls&lt;/a&gt; -sehen zu können. Der Anblick soll jedoch recht enttäuschend sein.&lt;/p&gt;
@@ -769,7 +769,7 @@ Nach dem Einchecken in der Unterkunft könnt ihr euch die Pferderennbahn anschau
 &lt;p&gt;In dieser Beschreibung werdet ihr vielleicht den Adam’s Peak vermissen. Nach den Berichten über die unglaublichen Menschenmassen, beschloss ich stattdessen den &lt;a href=&quot;https://de.wikipedia.org/wiki/Pidurutalagala&quot;&gt;höchsten Berg&lt;/a&gt; von Sri Lanka, &lt;a href=&quot;https://www.google.de/maps/place/Pidurutalagala/@6.9561327,80.7609073,13.62z/data=!4m5!3m4!1s0x3ae3802ac4e14a3b:0x2e692126d447a56f!8m2!3d7.0008469!4d80.7733297&quot;&gt;Pidurutalagala&lt;/a&gt;, zu erwandern. Leider endete die Wanderung bereits nach wenigen Metern an einer militärischen Kontrollstation. Der Soldat erklärte mir, ich könne unmöglich zu Fuss auf den Berg. Glücklicherweise stoppte gerade ein Pkw mit einheimischen Touristen, die mich freundlicherweise mit zum Gipfel und wieder herunter nahmen. Auf dem Gipfel befindet sich eine Militärstation, so dass eigentlich Fotografierverbot besteht. Aber natürlich sagt niemand etwas, wenn man einfach nur die Landschaft von oben fotografiert und nicht die militärischen Einrichtungen.&lt;/p&gt;
 &lt;aside&gt;
    &lt;figure class=&quot;figure-right&quot; style=&quot;width: 25%&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/sri-lanka-in-zwei-wochen/S/Nuwara Eliya Tree Silent Hill.jpg&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/sri-lanka-in-zwei-wochen/S/Nuwara Eliya Tree Silent Hill.jpg&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;p&gt;Für eine kurze, vielleicht 2-stündige Wanderung lädt auch der &lt;a href=&quot;https://www.google.de/maps/place/Single+Tree+Hill/@6.9606215,80.7641981,15z/data=!4m5!3m4!1s0x0:0x2a6ff577bec7f553!8m2!3d6.957785!4d80.762501&quot;&gt;Single Tree Hill&lt;/a&gt; ein. Der Weg führt am Swarnagiri Maha Viharaya Tempel vorbei hinauf zu den Antennentürmen. Die Wachmänner sind dankbar für jede Abwechslung und zeigen euch gerne den Weg zum besten Aussichtspunkt. Auf der nördlichen Seite des Hügels geht es wieder nach Nuwara Eliya hinunter. Falls ihr bisher noch keine ärmlichen Wellblechhütten gesehen habt, dann erschreckt nicht. So wohnen die Familien eurer Tuk-Tuk-Fahrer, Teepflückerinnen und einfachen Hotelangestellten.&lt;br /&gt;
@@ -779,13 +779,13 @@ Bei einem Spaziergang in der Stadt kommt man unvermeidlich am Busbahnhof vorbei.
 &lt;p&gt;Am Vormittag geht es mit dem Zug weiter von Nanu Oya nach &lt;a href=&quot;https://www.google.de/maps/place/Ella+Railway+Station/@6.874157,81.0425746,15.8z/data=!4m5!3m4!1s0x3ae465b3ed7aab67:0xa5c0659aa3e47484!8m2!3d6.8757739!4d81.0470879&quot;&gt;Ella&lt;/a&gt;. Wegen des unscheinbaren Örtchens fährt niemand her. Vielmehr wegen Wanderungen zum Ella Rock, Little Adams Peak und den Wasserfällen.&lt;/p&gt;
 &lt;aside&gt;
    &lt;figure class=&quot;figure-right&quot; style=&quot;width: 30%&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/sri-lanka-in-zwei-wochen/S/Ella Nine Arch Bridge 3.jpg&quot; /&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/sri-lanka-in-zwei-wochen/S/Ella Nine Arch Bridge.jpg&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/sri-lanka-in-zwei-wochen/S/Ella Nine Arch Bridge 3.jpg&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/sri-lanka-in-zwei-wochen/S/Ella Nine Arch Bridge.jpg&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;aside&gt;
    &lt;figure class=&quot;figure-left&quot; style=&quot;width: 28.5%&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/sri-lanka-in-zwei-wochen/S/Ella Nine Arch Bridge 2.jpg&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/sri-lanka-in-zwei-wochen/S/Ella Nine Arch Bridge 2.jpg&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;p&gt;Die wenigen Restaurants sind überteuert. Meine Unterkunft im sehr einfachen &lt;a href=&quot;http://www.booking.com/hotel/lk/nine-arch-bridge-view-homestay.de.html?aid=356985;label=gog235jc-hotel-XX-lk-nineNarchNbridgeNviewNhomestay-unspec-de-com-L%3Ade-O%3AosSx-B%3Asafari-N%3AXX-S%3Abo-U%3AXX;sid=6ce9044eeb42eabe22c92c47496386c2;dist=0&amp;amp;group_adults=2&amp;amp;sb_price_type=total&amp;amp;type=total&amp;amp;&quot;&gt;Nine Arch Bridge View Homestay&lt;/a&gt; bei einer singalesischen Familie bot einen grossartigen Blick auf die &lt;a href=&quot;https://www.google.de/maps/place/Nine+Arch+Bridge/@6.8731899,81.0596405,16.06z/data=!4m5!3m4!1s0x3ae465ccb001c6c5:0xc86e23f7a95269c!8m2!3d6.8766882!4d81.0608126&quot;&gt;Nine Arch Bridge&lt;/a&gt;. Inzwischen dürften weitere Unterkünfte mit ähnlichem Ausblick fertiggestellt worden sein. Auf der Terrasse liegt der Fahrplan aus und so könnt ihr die Brücke immer mit einem Zug fotografieren. Leider ist es ein weiter Fussmarsch von Ella bis zum Homestay. Daher solltet ihr euch auf jeden Fall ein Moped ausleihen. So sind seid ihr nicht auf ein Tuk-Tuk und das unvermeidliche Feilschen angewiesen.&lt;/p&gt;
@@ -806,13 +806,13 @@ Der Nachmittag bietet sich wieder für eine Mopedrundfahrt an. Ich hatte mir zum
 Lippenbär (Sloth Bear) am Jeep, Asiatische Elefanten, Süsswasserkrokodile in fast jedem Wasserloch, Wasserbüffel, Wildschweine, Axis-Hirsch, Sambar, Ceylon-Hutaffe, Hanuman-Languren, Warane, Mungos, Chamäleon, Pillendreher sowie Eisvögel, Nashornvögel, jede Menge Pfaue, Buntstorche, 
 Ceylonhuhn, Bee-Eater, Kormorane, Pelikane, Graureiher, Schwarzkopfibise, Löffelreiher, Eulen und Adler.&lt;/p&gt;
 &lt;div class=&quot;album&quot;&gt;
- 	&lt;figure&gt;&lt;img src=&quot;http://localhost:4000/assets/sri-lanka-in-zwei-wochen/S/Yala.jpg&quot; /&gt; &lt;/figure&gt;
-    &lt;figure&gt;&lt;img src=&quot;http://localhost:4000/assets/sri-lanka-in-zwei-wochen/S/Yala 7.jpg&quot; /&gt; &lt;/figure&gt;
-    &lt;figure&gt;&lt;img src=&quot;http://localhost:4000/assets/sri-lanka-in-zwei-wochen/S/Yala 6.jpg&quot; /&gt; &lt;/figure&gt;
-    &lt;figure&gt;&lt;img src=&quot;http://localhost:4000/assets/sri-lanka-in-zwei-wochen/S/Yala 3.jpg&quot; /&gt; &lt;/figure&gt;
-    &lt;figure&gt;&lt;img src=&quot;http://localhost:4000/assets/sri-lanka-in-zwei-wochen/S/Yala 2.jpg&quot; /&gt; &lt;/figure&gt;
-    &lt;figure&gt;&lt;img src=&quot;http://localhost:4000/assets/sri-lanka-in-zwei-wochen/S/Yala 8.jpg&quot; /&gt; &lt;/figure&gt;
-    &lt;figure&gt;&lt;img src=&quot;http://localhost:4000/assets/sri-lanka-in-zwei-wochen/S/Yala 9.jpg&quot; /&gt; &lt;/figure&gt;
+ 	&lt;figure&gt;&lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/sri-lanka-in-zwei-wochen/S/Yala.jpg&quot; /&gt; &lt;/figure&gt;
+    &lt;figure&gt;&lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/sri-lanka-in-zwei-wochen/S/Yala 7.jpg&quot; /&gt; &lt;/figure&gt;
+    &lt;figure&gt;&lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/sri-lanka-in-zwei-wochen/S/Yala 6.jpg&quot; /&gt; &lt;/figure&gt;
+    &lt;figure&gt;&lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/sri-lanka-in-zwei-wochen/S/Yala 3.jpg&quot; /&gt; &lt;/figure&gt;
+    &lt;figure&gt;&lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/sri-lanka-in-zwei-wochen/S/Yala 2.jpg&quot; /&gt; &lt;/figure&gt;
+    &lt;figure&gt;&lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/sri-lanka-in-zwei-wochen/S/Yala 8.jpg&quot; /&gt; &lt;/figure&gt;
+    &lt;figure&gt;&lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/sri-lanka-in-zwei-wochen/S/Yala 9.jpg&quot; /&gt; &lt;/figure&gt;
 &lt;/div&gt;
 &lt;p&gt;Nach der Safari geht es entweder weiter nach Tangalle oder sogar schon nach Unawatuna. In Tangalle kann wieder die Gegend via Moped erkundet werden. Auf dem Weg dorthin ist ein das &lt;a href=&quot;https://www.google.de/maps/place/Kalametiya+Bird+Sanctuary/@6.0941797,80.9369535,12.28z/data=!4m5!3m4!1s0x3ae6b0c1b84d1bf5:0xbd12620f080131de!8m2!3d6.0925577!4d80.9594751&quot;&gt;Kalametiya Bird Sanctuary&lt;/a&gt;. Leider sind die meisten Zugvögel nur im Winter dort. Im April konnte ich nicht mehr viele entdecken. Wer mag orientiert sich am besten an diesen Berichten bei &lt;a href=&quot;https://www.tripadvisor.de/Attraction_Review-g10153948-d3971021-Reviews-Kalametiya_Bird_Sanctuary-Kalamatiya_Southern_Province.html&quot;&gt;Tripadvisor&lt;/a&gt;. In der Nähe von Tangalle wird das &lt;a href=&quot;https://www.google.de/maps/place/Hummanaya+Blow+Hole/@5.9867667,80.720351,14z/data=!4m5!3m4!1s0x0:0x770058b13ef3eab!8m2!3d5.9775981!4d80.738622&quot;&gt;Hummanaya Blowhole&lt;/a&gt; touristisch vermarket. Man hat dort tatsächlich ein Kassenhäuschen davorgesetzt und verlangt Eintritt. Selbstverständlich ist eine Besichtigung das Geld nicht wert. Insbesondere nicht, wenn ihr bereits ein anderes Blowhole gesehen habt.&lt;br /&gt;
 Je nach Hotel und Gepäck bietet sich eine Weiterfahrt mit Bus oder Taxi an. Eine gute Orientierung über die Taxipreise bietet die Seite von &lt;a href=&quot;http://www.taxisrilanka.info/Srilanka_taxi_cab_price_fare_rate_Sri_Lanka.html&quot;&gt;Taxi Sri Lanka&lt;/a&gt;.&lt;/p&gt;
@@ -834,7 +834,7 @@ Wanderern gefällt sicher auch der &lt;a href=&quot;https://www.google.de/maps/p
 &lt;p&gt;Die meisten Züge haben vier Bereiche. Eine erste Klasse mit Klimaanlage und verschlossenen Fenstern. Auf der Strecke von oder nach Colombo empfand ich die Klimaanlage sehr angenehm. Aufgrund der unglaublich heissen und schwülen Luft im April kann sich der Körper etwas erholen. Da sich die Fenster nicht öffnen lassen, kann man auch nicht fotografieren. Andererseits gelingen die Fotos aus ruckelnden Zügen ohnehin selten.&lt;/p&gt;
 &lt;aside&gt;
    &lt;figure class=&quot;figure-right&quot;&gt;
-      &lt;img src=&quot;http://localhost:4000/assets/sri-lanka-in-zwei-wochen/S/Zugfahrt.jpg&quot; /&gt;
+      &lt;img src=&quot;https://swenvoigt.github.io/swenvoigt//assets/sri-lanka-in-zwei-wochen/S/Zugfahrt.jpg&quot; /&gt;
    &lt;/figure&gt;  
 &lt;/aside&gt;
 &lt;p&gt;Eine zweite Klasse mit reservierten Sitzplätzen, Ventilatoren und offenen Türen oder Fenstern ist fürs Fotografieren besser geeignet. Diese Klasse bietet sich auf allen anderen Strecken an. Ihr habt euren Sitzplatz, müsst nicht besonders auf euer Gepäck aufpassen und auf den Gängen steht niemand. Noch kostengünstiger sind die zweite und die dritte ohne zu reservierende Sitzplätze. Hier werdet ihr kaum einen Sitzplatz bekommen und die Gänge werden voller Menschen sein.
