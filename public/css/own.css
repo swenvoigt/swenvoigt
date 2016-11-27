@@ -606,6 +606,7 @@ figcaption {
 /* */
 
 .back-to-top {
+	display: none;
 	background: whiteSmoke;
 	text-align:center;
 	margin: 0;
@@ -619,7 +620,6 @@ figcaption {
 	position:fixed;
 	top:25px;
 	left:28rem;
-	display:none;
 	left: 50%;
 	transform: translateX(180px);
 }

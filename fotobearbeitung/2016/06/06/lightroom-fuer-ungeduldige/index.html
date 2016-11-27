@@ -44,8 +44,8 @@
   <!-- Begin Jekyll SEO tag v2.1.0 -->
 <title>Lightroom für Ungeduldige - Swen Voigt</title>
 <meta property="og:title" content="Lightroom für Ungeduldige" />
-<meta name="description" content="Als ich vor einigen Jahren RAW-Unterstützung benötigte, viel meine Wahl auf Aperture 3 von Apple. Vor allem wegen der tollen Diashows. Also migrierte ich alle Fotos von iPhoto nach Aperture 3. Ein Jahr später kündigte Apple an, das Produkt einzustampfen. Danke, Apfel-Firma! Alle neuen Fotos bearbeite ich inzwischen in Lightroom 6. Da ich anfangs aufgrund der unglaublich vielen Setup-Möglichkeiten etwas verloren war, beschreibe ich in diesem Post in möglichst kurzer Form mein Setup und den Workflow." />
-<meta property="og:description" content="Als ich vor einigen Jahren RAW-Unterstützung benötigte, viel meine Wahl auf Aperture 3 von Apple. Vor allem wegen der tollen Diashows. Also migrierte ich alle Fotos von iPhoto nach Aperture 3. Ein Jahr später kündigte Apple an, das Produkt einzustampfen. Danke, Apfel-Firma! Alle neuen Fotos bearbeite ich inzwischen in Lightroom 6. Da ich anfangs aufgrund der unglaublich vielen Setup-Möglichkeiten etwas verloren war, beschreibe ich in diesem Post in möglichst kurzer Form mein Setup und den Workflow." />
+<meta name="description" content="Als ich vor einigen Jahren RAW-Unterstützung benötigte, viel meine Wahl auf Aperture 3 von Apple. Vor allem wegen der tollen Diashows. Einige Tage später waren alle Fotos von iPhoto nach Aperture 3 migriert. Ein Jahr später kündigte Apple an, das Produkt einzustampfen. Danke, Apfel-Firma! Also musste es nun doch Lightroom 6 sein. Da ich anfangs aufgrund der unglaublich vielen Setup-Möglichkeiten etwas verloren war, beschreibe ich in diesem Post in möglichst kurzer Form mein Setup und den Workflow." />
+<meta property="og:description" content="Als ich vor einigen Jahren RAW-Unterstützung benötigte, viel meine Wahl auf Aperture 3 von Apple. Vor allem wegen der tollen Diashows. Einige Tage später waren alle Fotos von iPhoto nach Aperture 3 migriert. Ein Jahr später kündigte Apple an, das Produkt einzustampfen. Danke, Apfel-Firma! Also musste es nun doch Lightroom 6 sein. Da ich anfangs aufgrund der unglaublich vielen Setup-Möglichkeiten etwas verloren war, beschreibe ich in diesem Post in möglichst kurzer Form mein Setup und den Workflow." />
 <link rel="canonical" href="http://swenvoigt.com/fotobearbeitung/2016/06/06/lightroom-fuer-ungeduldige/" />
 <meta property="og:url" content="http://swenvoigt.com/fotobearbeitung/2016/06/06/lightroom-fuer-ungeduldige/" />
 <meta property="og:site_name" content="Swen Voigt" />
@@ -56,7 +56,7 @@
 "@type": "BlogPosting",
 "headline": "Lightroom für Ungeduldige",
 "datePublished": "2016-06-06T00:00:00+02:00",
-"description": "Als ich vor einigen Jahren RAW-Unterstützung benötigte, viel meine Wahl auf Aperture 3 von Apple. Vor allem wegen der tollen Diashows. Also migrierte ich alle Fotos von iPhoto nach Aperture 3. Ein Jahr später kündigte Apple an, das Produkt einzustampfen. Danke, Apfel-Firma! Alle neuen Fotos bearbeite ich inzwischen in Lightroom 6. Da ich anfangs aufgrund der unglaublich vielen Setup-Möglichkeiten etwas verloren war, beschreibe ich in diesem Post in möglichst kurzer Form mein Setup und den Workflow.",
+"description": "Als ich vor einigen Jahren RAW-Unterstützung benötigte, viel meine Wahl auf Aperture 3 von Apple. Vor allem wegen der tollen Diashows. Einige Tage später waren alle Fotos von iPhoto nach Aperture 3 migriert. Ein Jahr später kündigte Apple an, das Produkt einzustampfen. Danke, Apfel-Firma! Also musste es nun doch Lightroom 6 sein. Da ich anfangs aufgrund der unglaublich vielen Setup-Möglichkeiten etwas verloren war, beschreibe ich in diesem Post in möglichst kurzer Form mein Setup und den Workflow.",
 "url": "http://swenvoigt.com/fotobearbeitung/2016/06/06/lightroom-fuer-ungeduldige/"}</script>
 <!-- End Jekyll SEO tag -->
 
@@ -179,7 +179,7 @@
 				  
 				2016   
 				</span>
-  <p>Als ich vor einigen Jahren RAW-Unterstützung benötigte, viel meine Wahl auf Aperture 3 von Apple. Vor allem wegen der tollen Diashows. Also migrierte ich alle Fotos von iPhoto nach Aperture 3. Ein Jahr später kündigte Apple an, das Produkt einzustampfen. Danke, Apfel-Firma! Alle neuen Fotos bearbeite ich inzwischen in Lightroom 6. Da ich anfangs aufgrund der unglaublich vielen Setup-Möglichkeiten etwas verloren war, beschreibe ich in diesem Post in möglichst kurzer Form mein Setup und den Workflow.</p>
+  <p>Als ich vor einigen Jahren RAW-Unterstützung benötigte, viel meine Wahl auf Aperture 3 von Apple. Vor allem wegen der tollen Diashows. Einige Tage später waren alle Fotos von iPhoto nach Aperture 3 migriert. Ein Jahr später kündigte Apple an, das Produkt einzustampfen. Danke, Apfel-Firma! Also musste es nun doch Lightroom 6 sein. Da ich anfangs aufgrund der unglaublich vielen Setup-Möglichkeiten etwas verloren war, beschreibe ich in diesem Post in möglichst kurzer Form mein Setup und den Workflow.</p>
 
 <!--more-->
 
@@ -472,21 +472,20 @@ Daher verwende ich <a href="https://www.boinx.com/fotomagico/buy/">FotoMagico 5 
         }, false);
       })(document);
     
-jQuery(document).ready(function() {
-	var offset = 250;
+	$(document).ready(function($) {
+	var offset = 500;
 	var duration = 300;
 
-	jQuery(window).scroll(function() {
-		if (jQuery(this).scrollTop() > offset) {
-			jQuery('.back-to-top').fadeIn(duration);
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > offset) {
+			$('.back-to-top').fadeIn(duration);
 		} else {
-			jQuery('.back-to-top').fadeOut(duration);
+			$('.back-to-top').fadeOut(duration);
 		}
 });
  
-jQuery('.back-to-top').click(function(event) {
-	event.preventDefault();
-	jQuery('html, body').animate({scrollTop: 0}, duration);
+$('.back-to-top').click(function() {
+	$('html, body').animate({scrollTop: 0}, duration);
 	return false;
 	})
 	
