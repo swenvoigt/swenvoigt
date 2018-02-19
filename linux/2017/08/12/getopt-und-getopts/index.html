@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="de">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Parsen von Argumenten und Parametern - getopts vs. getopt &middot; Swen Voigt
+    
+  </title>
+
+  <!-- JS -->
+  <script src="http://swenvoigt.com/js/jquery-3.1.0.min.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="http://swenvoigt.com/public/css/poole.css">
+  <link rel="stylesheet" href="http://swenvoigt.com/public/css/syntax.css">
+  <link rel="stylesheet" href="http://swenvoigt.com/public/css/own.css">
+
+  <link rel="stylesheet" href="http://swenvoigt.com/public/fonts/font-awesome-4.6.3/css/font-awesome.min.css"> 
+  <link rel="stylesheet" href="http://swenvoigt.com/public/fonts/font-concourse/stylesheet.css">
+  <link rel="stylesheet" href="http://swenvoigt.com/public/fonts/font-concourse-tab/stylesheet.css">
+  <link rel="stylesheet" href="http://swenvoigt.com/public/fonts/font-equity/stylesheet.css">
+  <!--link rel="stylesheet" href="http://swenvoigt.com/public/fonts/font-equity-tab/stylesheet.css"-->
+  <link rel="stylesheet" href="http://swenvoigt.com/public/fonts/font-advocate-tab/stylesheet.css">
+  <link rel="stylesheet" href="http://swenvoigt.com/public/fonts/font-advocate-mid/stylesheet.css">
+  <link rel="stylesheet" href="http://swenvoigt.com/public/fonts/font-triplicate-code/stylesheet.css">
+  <link rel="stylesheet" href="http://swenvoigt.com/public/fonts/font-scriptina/stylesheet.css">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://swenvoigt.com/public/favicon-144x144.png">
+  <link rel="shortcut icon" href="http://swenvoigt.com/public/favicon.ico">
+
+  <!-- RSS -->
+  <!--link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml"-->
+  
+  <!-- SEO -->
+  <!-- Begin Jekyll SEO tag v2.2.3 -->
+<title>Parsen von Argumenten und Parametern - getopts vs. getopt | Swen Voigt</title>
+<meta property="og:title" content="Parsen von Argumenten und Parametern - getopts vs. getopt" />
+<meta name="author" content="Swen Voigt" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Irgendwann einmal trifft es jeden, der in der IT-Abteilung mit UNIX-Betriebssystemen zu tun hat: Es müsste mal eben ein kleines Skript geschrieben werden. Das Skript wird dann doch komplexer und und es sollen Optionen und Parameter übergeben werden. Zum Parsen der Kommandozeilen-Optionen empfehlen sich zwei Hilfsmittel: getopt und getopts. Der Buchstabe s macht den Unterschied." />
+<meta property="og:description" content="Irgendwann einmal trifft es jeden, der in der IT-Abteilung mit UNIX-Betriebssystemen zu tun hat: Es müsste mal eben ein kleines Skript geschrieben werden. Das Skript wird dann doch komplexer und und es sollen Optionen und Parameter übergeben werden. Zum Parsen der Kommandozeilen-Optionen empfehlen sich zwei Hilfsmittel: getopt und getopts. Der Buchstabe s macht den Unterschied." />
+<link rel="canonical" href="http://swenvoigt.com/linux/2017/08/12/getopt-und-getopts/" />
+<meta property="og:url" content="http://swenvoigt.com/linux/2017/08/12/getopt-und-getopts/" />
+<meta property="og:site_name" content="Swen Voigt" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-08-12T00:00:00+02:00" />
+<script type="application/ld+json">
+{"@context":"http://schema.org","@type":"BlogPosting","headline":"Parsen von Argumenten und Parametern - getopts vs. getopt","author":{"@type":"Person","name":"Swen Voigt"},"datePublished":"2017-08-12T00:00:00+02:00","dateModified":"2017-08-12T00:00:00+02:00","description":"Irgendwann einmal trifft es jeden, der in der IT-Abteilung mit UNIX-Betriebssystemen zu tun hat: Es müsste mal eben ein kleines Skript geschrieben werden. Das Skript wird dann doch komplexer und und es sollen Optionen und Parameter übergeben werden. Zum Parsen der Kommandozeilen-Optionen empfehlen sich zwei Hilfsmittel: getopt und getopts. Der Buchstabe s macht den Unterschied.","mainEntityOfPage":{"@type":"WebPage","@id":"http://swenvoigt.com/linux/2017/08/12/getopt-und-getopts/"},"url":"http://swenvoigt.com/linux/2017/08/12/getopt-und-getopts/"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+</head>
+
+
+<!-- add class sidebar-overlay optionally, then sidebar will not shift the full content to to the right -->
+<body class="theme-base-own"> 
+	
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" unchecked>
+
+<!-- Toggleable sidebar -->
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-titel">
+    <p><span style="letter-spacing: -0.07em">S</span>wen <span style="letter-spacing: -0.12em">V</span>oigt</p>
+  </div>
+  <div class="sidebar-description">
+    <p>Tutorials, Tipps & Tricks</p>
+  </div>
+  
+  <nav>
+    <a class="sidebar-nav-item" href="http://swenvoigt.com/"><i class='fa fa-home'></i> Home</a>
+
+    <a class="sidebar-nav-item" href="http://swenvoigt.com/about"><i class='fa fa-book'></i> About</a>
+
+    <a class="sidebar-nav-item" href="http://swenvoigt.com/archive"><i class='fa fa-archive'></i> Archive</a>
+
+
+	
+    	<a class="sidebar-nav-item" 
+	    	href="http://swenvoigt.com/categories/Reisen/" style="text-decoration: none;"><i class='fa fa-tag'></i> Reisen</a>
+	
+    	<a class="sidebar-nav-item" 
+	    	href="http://swenvoigt.com/categories/Fotobearbeitung/" style="text-decoration: none;"><i class='fa fa-tag'></i> Fotobearbeitung</a>
+	
+    	<a class="sidebar-nav-item" 
+	    	href="http://swenvoigt.com/categories/Linux/" style="text-decoration: none;"><i class='fa fa-tag'></i> Linux</a>
+	
+
+<!--
+    
+
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/categories/Fotobearbeitung/"><i class='fa fa-tag'></i> </a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/categories/Linux/"><i class='fa fa-tag'></i> </a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/categories/Reisen/"><i class='fa fa-tag'></i> </a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+-->
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      <i class='fa fa-rss'></i> <a href="http://swenvoigt.com/atom.xml">RSS Feed</a>
+    </p>
+
+    <p>
+      <i class='fa fa-copyright'></i> 2014-2018 Swen Voigt<br> <a href="http://swenvoigt.com/impressum">Impressum</a> | <a href="http://swenvoigt.com/datenschutz">Datenschutzerklärung</a>
+    </p>
+    
+    
+  </div>
+</aside>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+	<header class="masthead" style="background-image: url( 'http://swenvoigt.com/assets/img/mountain-cover.jpg' )">
+   		<h1 class="masthead-title">
+			<a href="http://swenvoigt.com/" title="Home"><span style="letter-spacing: -0.07em">S</span>wen <span style="letter-spacing: -0.18em">V</span>oigt</a>
+		</h1>
+		
+		<nav class="masthead-topics">
+			<ul>
+			
+				<li><a href="http://swenvoigt.com//about">Über mich</a>&nbsp;&nbsp;&nbsp;</li>
+			
+				<li><a href="http://swenvoigt.com//archive">Archiv</a>&nbsp;&nbsp;&nbsp;</li>
+			
+			</ul>
+        </nav>
+	</header>
+    
+	  
+      <div class="container">
+        <div class="post">
+  <h1 class="post-title">Parsen von Argumenten und Parametern - getopts vs. getopt</h1>
+  <span class="post-date"><i class='fa fa-calendar'></i>&nbsp;
+              
+				12. 
+				August
+				  
+				2017   
+				</span>
+  <p>Irgendwann einmal trifft es jeden, der in der IT-Abteilung mit UNIX-Betriebssystemen zu tun hat: Es müsste mal eben ein kleines Skript geschrieben werden. Das Skript wird dann doch komplexer und und es sollen Optionen und Parameter übergeben werden. Zum Parsen der Kommandozeilen-Optionen empfehlen sich zwei Hilfsmittel: getopt und getopts. Der Buchstabe s macht den Unterschied.</p>
+
+<!--more-->
+
+<hr />
+
+<h1 id="inhalt">Inhalt</h1>
+
+<div class="TOC-bullets">
+  <ul>
+    <li><a href="#a1">Argumente, Optionen und Parameter</a></li>
+    <li><a href="#a2">Vor- und Nachteile von getopt und getopts</a></li>
+    <li><a href="#a3">Beispiel für getopt</a></li>
+    <li><a href="#a4">…und getopts</a></li>
+  </ul>
+</div>
+
+<h2 id="argumente-optionen-und-parameter"><a name="a1"></a>Argumente, Optionen und Parameter</h2>
+<p>In der Befehlszeile einer Unix-Shell ist jede Zeichenkette ein Argument. So hat der Befehl “gzip –list datei” drei Argumente. Als Option bezeichnet man wiederum ein Argument, das das Verhalten des Programms ändert. Ein Parameter wiederum stellt eine Zusatzinformation entweder der Option oder dem Programm zur Verfügung.
+Zum Einleiten einer Option hat sich das Bindestrich-Minus eingebürgert, gefolgt von einem oder mehreren Buchstaben: “ls -l” oder “java -version”. Alternativ werden auch eine kurze und lange Variante der gleichen Option angeboten (GNU): “gzip -l datei” und “gzip –list datei”. Die kurze Variante der Option hat darüberhinaus den Vorteil, daß sich mehrere zusammenschreiben lassen. Statt “gzip -l -v datei” kann man auch “gzip -lv datei” schreiben. Das klappt mit der langen Variante natürlich nicht.</p>
+
+<p>Damit sind diese drei Varianten von Kommandozeilen-Optionen möglich:</p>
+<ul>
+  <li>Option ohne Parameter<br />
+ Wie zum Beispiel in “ls -l”. Es ist ein einfaches Flag und bedeutet einfach “long format”</li>
+  <li>Option mit mandatorischem Parameter<br />
+ Wie hier: “find / -type d”. Hier werden ab dem Wurzelverzeichnis alle Directories ausgegeben.
+Mit “find / -type f” hingegen alle einfachen Dateien.</li>
+  <li>Option mit optionalem Parameter<br /> 
+ “grep –context=1 Liste” gibt jeweils die Zeile über und unter der Trefferzeile aus. Bei “grep –context Liste” sind es jeweils zwei Zeilen darüber und darunter, da dies der Default-Wert ist</li>
+</ul>
+
+<p>Und natürlich sind auch Parameter ohne Option denkbar. Wie bei “ls verzeichnisname”</p>
+
+<h2 id="vor--und-nachteile-von-getopt-und-getopts"><a name="a2"></a>Vor- und Nachteile von getopt und getopts</h2>
+<p>Während getopts als inline-Befehl der ksh und bash immer dabei ist, ist das neuere getopt-Tool möglicherweise nicht installiert. Wenn bei der Eingabe von “getopt -T” keine 4 zurückgegeben wird, dann ist auch noch eine ältere Version installiert (wie z.B. bei MacOS).</p>
+
+<p>Pro und cons von getopts:<br />
+   <i class="fa fa-plus-circle"></i> Shell builtin-Befehl, in jeder POSIX-Shell dabei<br />
+   <i class="fa fa-minus-circle"></i> unterstützt keine lange Schreibweise, wie bei den GNU-Tools<br />
+   <i class="fa fa-adjust"></i> keine optionalen Parameter (,die aber ohnehin nie benötigt werden)<br /></p>
+
+<p>Pros und cons von getopt:<br />
+   <i class="fa fa-minus-circle"></i> kein Shell-Builtin<br />
+   <i class="fa fa-minus-circle"></i> Ältere Versionen unterstützen möglicherweise keine Whitespaces in Parametern (“script.sh -x ‘  abc 34’ -y ‘ ‘”)<br />
+   <i class="fa fa-plus-circle"></i> unterstützt lange Optionen (gzip –list file)<br />
+   <i class="fa fa-adjust"></i> optionale Parameter möglich<br /></p>
+
+<p>Habt ihr allgemein verwendbare Skripte, die auf andere Unix-Betriebssysteme portiert werden könnten, würde ich zur getopts-Variante raten. Insbesondere, wenn es ausreichend ist, die kurze Optionsschreibweise zu verwenden. Sind eure Skripte plattform-abhängig würde ich getopt (in Version 4) empfehlen.</p>
+
+<h2 id="beispiel-für-getopt"><a name="a3"></a>Beispiel für getopt</h2>
+<p>Genug geschrieben. Wer direkt loslegen mag findet hier das Skript <a href="http://swenvoigt.com/assets/scripts/test_getopt.sh">test_getopt.sh</a>.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/bin/bash</span>
+<span class="nv">GETOPT</span><span class="o">=</span>/usr/bin/getopt
+ 
+<span class="nv">PROG</span><span class="o">=</span><span class="k">${</span><span class="nv">0</span><span class="p">##*/</span><span class="k">}</span>
+ 
+<span class="k">function </span>usage <span class="o">()</span>
+<span class="o">{</span>
+cat <span class="sh">&lt;&lt;EOF
+usage: $PROG [options] &lt;non-option parameter&gt;
+$PROG will just show the various options and parameters. The non-option parameter is not parsed by getopt,
+but that kind of parameter is sometimes helpful as well.
+ 
+  Options:
+    -h,--help          print this help message.
+    -f,--flag             option with no parameter, a flag
+    -g,--gflag            another option with no parameter, a flag
+    -o,--optional [param] option with an optional parameter. That could be useful if there is a default parameter.
+    -r,--required [param} option with mandatory parameter.
+EOF
+</span><span class="o">}</span>
+ 
+<span class="c"># Test  if  your  getopt(1) is this enhanced version or an old version. This generates no output, and sets the error status to 4.</span>
+<span class="nv">$GETOPT</span> -T
+<span class="k">if</span> <span class="o">[</span> <span class="nv">$?</span> -ne 4 <span class="o">]</span>; <span class="k">then
+  </span><span class="nb">echo</span> <span class="s2">"Get getopt from http://software.frodo.looijaard.name/getopt or install package util-linux-ng."</span>
+
+  <span class="nb">exit </span>1
+<span class="k">fi</span>
+ 
+<span class="c"># process and assign command line arguments</span>
+<span class="nv">_temp</span><span class="o">=</span><span class="k">$(</span><span class="nv">$GETOPT</span> -o hfgr:o:: --long <span class="nb">help</span>,flag,gflag,required:,optional:: -n <span class="nv">$PROG</span> -- <span class="s2">"</span><span class="nv">$@</span><span class="s2">"</span><span class="k">)</span>
+<span class="k">if</span> <span class="o">[</span> <span class="nv">$?</span> !<span class="o">=</span> 0 <span class="o">]</span> ; <span class="k">then </span><span class="nb">echo</span> <span class="s2">"bad command line options"</span> &gt;&amp;2 ; <span class="nb">exit </span>1 ; <span class="k">fi
+</span><span class="nb">eval set</span> -- <span class="s2">"</span><span class="nv">$_temp</span><span class="s2">"</span>
+ 
+<span class="nb">unset </span>_OPT_FLAG
+<span class="nb">unset </span>_OPT_FLAG2
+<span class="nb">unset </span>_OPT_OPTIONAL
+<span class="nb">unset </span>_OPT_REQUIRED
+<span class="nb">unset </span>_OPT_PARAMETER
+ 
+<span class="k">while </span><span class="nb">true</span> ; <span class="k">do
+        case</span> <span class="s2">"</span><span class="nv">$1</span><span class="s2">"</span> <span class="k">in</span>
+        -h|--help<span class="p">)</span>
+                        usage; <span class="nb">exit </span>0 <span class="p">;;</span>
+        -f|--flag<span class="p">)</span>
+                        <span class="nv">_OPT_FLAG</span><span class="o">=</span>1; <span class="nb">shift</span>; <span class="k">continue</span> <span class="p">;;</span>
+        -g|--gflag<span class="p">)</span>
+                        <span class="nv">_OPT_FLAG2</span><span class="o">=</span>1; <span class="nb">shift</span>; <span class="k">continue</span> <span class="p">;;</span>
+        -o|--optional<span class="p">)</span>
+                        <span class="k">if</span> <span class="o">[[</span> -z <span class="s2">"</span><span class="nv">$2</span><span class="s2">"</span> <span class="o">]]</span>; <span class="k">then
+                                </span><span class="nv">_OPT_OPTIONAL</span><span class="o">=</span><span class="s2">"default"</span>
+                        <span class="k">else
+                                </span><span class="nv">_OPT_OPTIONAL</span><span class="o">=</span><span class="nv">$2</span>
+                        <span class="k">fi
+                        </span><span class="nb">shift </span>2; <span class="k">continue</span> <span class="p">;;</span>
+        -r|--required<span class="p">)</span>
+                        <span class="nv">_OPT_REQUIRED</span><span class="o">=</span><span class="nv">$2</span>; <span class="nb">shift </span>2; <span class="k">continue</span> <span class="p">;;</span>
+        --<span class="p">)</span>
+                        <span class="nb">shift</span>; <span class="nb">break</span> <span class="p">;;</span>
+        <span class="k">*</span><span class="p">)</span>
+                        <span class="k">if</span> <span class="o">[[</span> -z <span class="s2">"</span><span class="nv">$_OPT_PARAMETER</span><span class="s2">"</span> <span class="o">]]</span>; <span class="k">then
+                                </span><span class="nv">_OPT_PARAMETER</span><span class="o">=</span><span class="nv">$1</span>
+                                <span class="nb">shift</span>; <span class="nb">break
+                        </span><span class="k">else
+                                </span><span class="nb">echo</span> <span class="s2">"bad getopt-option </span><span class="nv">$1</span><span class="s2">"</span>
+                                usage
+                                <span class="nb">exit </span>1
+                        <span class="k">fi</span>
+                        <span class="p">;;</span>
+        <span class="k">esac</span>
+<span class="k">done
+ 
+while</span> <span class="o">[</span> <span class="nv">$# </span>-gt 0 <span class="o">]</span>; <span class="k">do
+        if</span> <span class="o">[[</span> -z <span class="s2">"</span><span class="nv">$_OPT_PARAMETER</span><span class="s2">"</span> <span class="o">]]</span>; <span class="k">then
+                </span><span class="nv">_OPT_PARAMETER</span><span class="o">=</span><span class="nv">$1</span>
+                <span class="nb">shift
+        </span><span class="k">else
+                </span><span class="nb">echo</span> <span class="s2">"bad option </span><span class="nv">$1</span><span class="s2">"</span>
+                <span class="nb">exit </span>1
+        <span class="k">fi
+done
+ 
+</span><span class="nb">echo </span><span class="nv">_OPT_FLAG</span><span class="o">=</span><span class="nv">$_OPT_FLAG</span>
+<span class="nb">echo </span><span class="nv">_OPT_FLAG2</span><span class="o">=</span><span class="nv">$_OPT_FLAG2</span>
+<span class="nb">echo </span><span class="nv">_OPT_OPTIONAL</span><span class="o">=</span><span class="nv">$_OPT_OPTIONAL</span>
+<span class="nb">echo </span><span class="nv">_OPT_REQUIRED</span><span class="o">=</span><span class="nv">$_OPT_REQUIRED</span>
+<span class="nb">echo </span><span class="nv">_OPT_PARAMETER</span><span class="o">=</span><span class="nv">$_OPT_PARAMETER</span></code></pre></figure>
+
+<p>Und so schaut das ganze beim Testen aus:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">test</span>@localhost:~/scripts&gt;./test_getopt.sh -f  -r reqarg --optional<span class="o">=</span>optarg /path/to/file
+<span class="nv">_OPT_FLAG</span><span class="o">=</span>1
+<span class="nv">_OPT_FLAG2</span><span class="o">=</span>
+<span class="nv">_OPT_OPTIONAL</span><span class="o">=</span>optarg
+<span class="nv">_OPT_REQUIRED</span><span class="o">=</span>reqarg
+<span class="nv">_OPT_PARAMETER</span><span class="o">=</span>/path/to/file
+ 
+<span class="nb">test</span>@localhost:~/scripts&gt;./test_getopt.sh --flag --gflag  --required reqarg --optional /path/to/file
+<span class="nv">_OPT_FLAG</span><span class="o">=</span>1
+<span class="nv">_OPT_FLAG2</span><span class="o">=</span>1
+<span class="nv">_OPT_OPTIONAL</span><span class="o">=</span>default
+<span class="nv">_OPT_REQUIRED</span><span class="o">=</span>reqarg
+<span class="nv">_OPT_PARAMETER</span><span class="o">=</span>/path/to/file
+ 
+<span class="nb">test</span>@localhost:~/scripts&gt;./test_getopt.sh -fg /path/to/file -r reqarg -o<span class="o">=</span>optarg
+<span class="nv">_OPT_FLAG</span><span class="o">=</span>1
+<span class="nv">_OPT_FLAG2</span><span class="o">=</span>1
+<span class="nv">_OPT_OPTIONAL</span><span class="o">==</span>optarg
+<span class="nv">_OPT_REQUIRED</span><span class="o">=</span>reqarg
+<span class="nv">_OPT_PARAMETER</span><span class="o">=</span>/path/to/file
+ 
+<span class="nb">test</span>@localhost:~/scripts&gt;./test_getopt.sh -fg -r reqarg -o<span class="o">=</span>optarg /path/to/file /wrong/arg
+bad option /wrong/arg
+ 
+<span class="nb">test</span>@localhost:~/scripts&gt;./test_getopt.sh -flag -r reqarg -o<span class="o">=</span>optarg /path/to/file
+test_getopt.sh: invalid option -- <span class="s1">'l'</span>
+test_getopt.sh: invalid option -- <span class="s1">'a'</span>
+bad <span class="nb">command </span>line options</code></pre></figure>
+
+<h2 id="-und-für-getopts"><a name="a4"></a>… und für getopts</h2>
+<p>Und alle, die “getopts” den Vorzug geben finden das Beispielprogramm <a href="http://swenvoigt.com/assets/scripts/test_getopts.sh">test_getopts.sh</a> hier.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/bin/bash</span>
+ 
+<span class="nv">PROG</span><span class="o">=</span><span class="k">${</span><span class="nv">0</span><span class="p">##*/</span><span class="k">}</span>
+ 
+<span class="k">function </span>usage <span class="o">()</span>
+<span class="o">{</span>
+cat <span class="sh">&lt;&lt;EOF
+usage: $PROG [options] &lt;non-option parameter&gt;
+$PROG will just show the various options and parameters. The non-option parameter is not parsed by getopt,
+but that kind of parameter is sometimes helpful as well.
+ 
+  Options:
+    -h         print this help message.
+    -f         option with no parameter, a flag
+    -g         another option with no parameter, a flag
+    -r [param} option with mandatory parameter.
+EOF
+</span><span class="o">}</span>
+ 
+<span class="nb">unset </span>_OPT_FLAG
+<span class="nb">unset </span>_OPT_FLAG2
+<span class="nb">unset </span>_OPT_REQUIRED
+<span class="nb">unset </span>_OPT_PARAMETER
+ 
+<span class="c"># first colon diables the verbose error message</span>
+<span class="k">while </span><span class="nb">getopts</span> <span class="s2">":hfgr:"</span> opt; <span class="k">do
+  case</span> <span class="nv">$opt</span> <span class="k">in
+        </span>h<span class="p">)</span>
+                        usage; <span class="nb">exit </span>0 <span class="p">;;</span>
+        f<span class="p">)</span>
+                        <span class="nv">_OPT_FLAG</span><span class="o">=</span>1 <span class="p">;;</span>
+        g<span class="p">)</span>
+                        <span class="nv">_OPT_FLAG2</span><span class="o">=</span>1 <span class="p">;;</span>
+        r<span class="p">)</span>
+                        <span class="nv">_OPT_REQUIRED</span><span class="o">=</span><span class="nv">$OPTARG</span> <span class="p">;;</span>
+        :<span class="p">)</span>
+                        <span class="nb">echo</span> <span class="s2">"bad getopts-option </span><span class="nv">$OPTARG</span><span class="s2">."</span>
+                        usage
+                        <span class="nb">exit </span>1
+                        <span class="p">;;</span>
+        <span class="se">\?</span><span class="p">)</span>
+                        <span class="nb">echo</span> <span class="s2">"bad getopts-option </span><span class="nv">$1</span><span class="s2">"</span>
+                        usage
+                        <span class="nb">exit </span>1
+                        <span class="p">;;</span>
+        <span class="k">esac</span>
+<span class="k">done
+ 
+</span><span class="nb">shift</span> <span class="k">$((</span>OPTIND-1<span class="k">))</span>
+ 
+<span class="k">while</span> <span class="o">[</span> <span class="nv">$# </span>-gt 0 <span class="o">]</span>; <span class="k">do
+        if</span> <span class="o">[[</span> -z <span class="s2">"</span><span class="nv">$_OPT_PARAMETER</span><span class="s2">"</span> <span class="o">]]</span>; <span class="k">then
+                </span><span class="nv">_OPT_PARAMETER</span><span class="o">=</span><span class="nv">$1</span>
+                <span class="nb">shift
+        </span><span class="k">else
+                </span><span class="nb">echo</span> <span class="s2">"bad option </span><span class="nv">$1</span><span class="s2">"</span>
+                <span class="c"># exit 1</span>
+                <span class="nb">shift
+        </span><span class="k">fi
+done
+ 
+</span><span class="nb">echo </span><span class="nv">_OPT_FLAG</span><span class="o">=</span><span class="nv">$_OPT_FLAG</span>
+<span class="nb">echo </span><span class="nv">_OPT_FLAG2</span><span class="o">=</span><span class="nv">$_OPT_FLAG2</span>
+<span class="nb">echo </span><span class="nv">_OPT_REQUIRED</span><span class="o">=</span><span class="nv">$_OPT_REQUIRED</span>
+<span class="nb">echo </span><span class="nv">_OPT_PARAMETER</span><span class="o">=</span><span class="nv">$_OPT_PARAMETER</span></code></pre></figure>
+
+<p>Und hier das Ergebnis des Tests:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"> 
+<span class="nb">test</span>@localhost:~/scripts&gt;./test_getopts.sh -f -r 123 /path/to/file
+<span class="nv">_OPT_FLAG</span><span class="o">=</span>1
+<span class="nv">_OPT_FLAG2</span><span class="o">=</span>
+<span class="nv">_OPT_REQUIRED</span><span class="o">=</span>123
+<span class="nv">_OPT_PARAMETER</span><span class="o">=</span>/path/to/file
+<span class="nb">test</span>@localhost:~/scripts&gt;./test_getopts.sh -fg -r 123 /path/to/file
+<span class="nv">_OPT_FLAG</span><span class="o">=</span>1
+<span class="nv">_OPT_FLAG2</span><span class="o">=</span>1
+<span class="nv">_OPT_REQUIRED</span><span class="o">=</span>123
+<span class="nv">_OPT_PARAMETER</span><span class="o">=</span>/path/to/file
+<span class="nb">test</span>@localhost:~/scripts&gt;./test_getopts.sh -fg -r 123
+<span class="nv">_OPT_FLAG</span><span class="o">=</span>1
+<span class="nv">_OPT_FLAG2</span><span class="o">=</span>1
+<span class="nv">_OPT_REQUIRED</span><span class="o">=</span>123
+<span class="nv">_OPT_PARAMETER</span><span class="o">=</span>
+<span class="nb">test</span>@localhost:~/scripts&gt;./test_getopts.sh -fg /path/to/file -r 123
+bad option -r
+bad option 123
+<span class="nv">_OPT_FLAG</span><span class="o">=</span>1
+<span class="nv">_OPT_FLAG2</span><span class="o">=</span>1
+<span class="nv">_OPT_REQUIRED</span><span class="o">=</span>
+<span class="nv">_OPT_PARAMETER</span><span class="o">=</span>/path/to/file
+<span class="nb">test</span>@localhost:~/scipts&gt;./test_getopts.sh -fg /path/to/file -r
+bad option -r
+<span class="nv">_OPT_FLAG</span><span class="o">=</span>1
+<span class="nv">_OPT_FLAG2</span><span class="o">=</span>1
+<span class="nv">_OPT_REQUIRED</span><span class="o">=</span>
+<span class="nv">_OPT_PARAMETER</span><span class="o">=</span>/path/to/file</code></pre></figure>
+
+<h1 id="links">Links</h1>
+<ol>
+  <li><a href="https://stackoverflow.com/questions/74844/bash-or-kornshell-ksh">Weil tatsächlich darüber diskutiert wird - bash oder ksh</a></li>
+  <li><a href="http://wiki.bash-hackers.org/syntax/pe">Parameter Expansion in BASH</a></li>
+</ol>
+
+<hr />
+
+</div>
+
+        
+
+<div id="disqus_thread"> </div>
+<script type="text/javascript">
+	var disqus_shortname = 'swenvoigt';
+	var disqus_identifier = "/linux/2017/08/12/getopt-und-getopts/";
+	(function() {
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+      </div>
+    </div>
+
+	<a href="#" class="back-to-top less-opacity" style="display: block" >
+	<i class="fa fa-chevron-circle-up"></i>
+	</a>
+
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script type="text/javascript">
+
+    $('.back-to-top').css({"display": "none"});
+
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    
+	$(document).ready(function($) {
+	var offset = 500;
+	var duration = 300;
+
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > offset) {
+			$('.back-to-top').fadeIn(duration);
+		} else {
+			$('.back-to-top').fadeOut(duration);
+		}
+});
+ 
+$('.back-to-top').click(function() {
+	$('html, body').animate({scrollTop: 0}, duration);
+	return false;
+	})
+	
+});
+</script>
+
+    
+    
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-87037365-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    
+
+  </body>
+</html>
