@@ -68,7 +68,8 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
 /* font-family: "equity_text_bregular";*/
-font-family: "concourse_t3regular";
+/* font-family: "concourse_t3regular";*/
+font-family: "concourse_t3bold_italic";
 /* font-family: "advocate_c43_tabregular"; */
 /* font-family: "equity_caps_a_tabbold"; */
   font-size: 1.3rem;
@@ -94,10 +95,14 @@ hr {
 	background: linear-gradient(to right, white, #404040, white);
 }
 
-code {
-	font-family: "triplicate_t3cregular"
+pre {
+  line-height: 1;
 }
 
+.language-bash {
+    font-family: "triplicate_t3cregular";
+    font-size: 0.6rem;
+}
 
 /*
  * Wrapper
@@ -122,14 +127,14 @@ code {
 .container {
   max-width: 28rem;
 }
-@media (min-width: 38em) {
+@media (min-width: 50em) {
   .container {
     max-width: 32rem;
   }
 }
-@media (min-width: 56em) {
+@media (min-width: 60em) {
   .container {
-    max-width: 38rem;
+    max-width: 48rem;
   }
 }
 
@@ -142,7 +147,8 @@ code {
 
 .page-title,
 .post-title {
-    font-family: "concourse_t3regular";
+    /*font-family: "concourse_t3regular";*/
+    font-family: "concourse_t3bold_italic";
     font-size: 1.3rem;
     color: #404040;
     padding-top: 2rem;
@@ -531,18 +537,36 @@ figure {
 	float:	left;
 	width: 50%;
 	margin: 20px 20px 0px 0;
+  transition: all .2s ease-in-out;
+
 }
 
 .figure-right  {
 	float:	right;
 	width: 50%;
 	margin: 20px 0 0px 20px;
+  transition: all .2s ease-in-out;
 }
 
 .figure-full  {
 	width: 100%;
 	margin: 0;
+  transition: all .2s ease-in-out;
 }
+
+.figure-left:hover {
+    transform:scale(2.5);
+    z-index: 1;
+}
+.figure-right:hover {
+    transform:scale(2.5);
+    z-index: 1;
+}
+.figure-full:hover {
+    transform:scale(2.5);
+    z-index: 1;
+}
+
 
 figcaption {
 	position: static;
@@ -574,7 +598,7 @@ figcaption {
 
 .album img {
             display: inline-block;
-            max-height: 10em;
+            max-height: 12.5em;
             width: auto;
             box-sizing: border-box;
             margin: 0;
@@ -582,7 +606,7 @@ figcaption {
         }
 
 .album figure:hover {
-    transform:scale(1.5);
+    transform:scale(2.5);
     z-index: 1;
 }
 
